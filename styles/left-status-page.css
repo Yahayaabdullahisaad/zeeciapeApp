@@ -1,0 +1,306 @@
+.left-status-add-friend-div-i{
+    border:none;
+    max-width: 620px;
+    height: 127px;
+    overflow: hidden;
+    align-items: center;
+    position: relative;
+}
+.left-status-add-friend-div-ii{
+    border: 1px solid black;
+    width: 100%;
+    height: 125px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    overflow-x: scroll;
+}
+.left-status-add-friend-container{
+    background-color:rgb(34, 36, 34);
+    border: none;
+    width: 100px;
+    height: 115px;
+    margin-left: 4px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0px 0px 4px black;
+    padding-top: 2px;
+}
+.left-status-add-friend-img-button{
+    border:none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 2px;
+
+}
+.left-status-add-friend-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.left-status-add-friend-name{
+    background-color:rgb(34, 36, 34);
+    border:none;
+    width: 80px;
+    height: 20px;
+    margin-top: -2px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: capitalize;
+    font-size: 13px;
+    color: rgb(226, 226, 226);
+    font-weight: 600;
+    margin-left:4px;
+    margin-right: 4px;
+    margin-top: 8px;
+    margin-bottom: 2px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    border-radius: 4px;
+    font-weight:400;
+}
+.left-status-follow-button{
+    background-color:rgba(9, 9, 82, 0.924);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: 1px solid rgb(9, 9, 82);
+    margin-top: 8px;
+    width: 80px;
+    color:rgb(202, 202, 202);
+    height: 25px;
+    border-radius: 8px;
+    font-family: 15px;
+    font-weight:450;
+    text-transform: capitalize;
+}
+
+.left-status-add-status-p{
+    background-color:transparent;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 2px;
+    margin-left: 4px;
+    width: 150px;
+    color: rgb(51, 51, 51);
+    height: 20px;
+    font-family: 15px;
+    font-weight:900;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+.left-status-add-status-div{
+    width: 300px;
+    height: 43px;
+    display: flex;
+    position: relative;
+    margin-bottom: 10px;
+}
+.left-status-user-button{
+    border: 2px solid rgb(33, 4, 114);
+    width: 40px;
+    height: 40px;
+    margin-left: 2px;
+    margin-top: 1px;
+    border-radius: 50%;
+    position: relative;
+}
+.left-status-file{
+    display: none;
+}
+.left-status-label-file{
+    border: 1px solid rgb(33, 4, 114);
+    background-color: rgb(33, 4, 114);
+    width: 15px;
+    min-height: 10px;
+    position: absolute;
+    border-radius: 50%;
+    bottom: 0px;
+    right: -4px;
+    color: white;
+}
+
+.left-status-user-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.left-status-name{
+    background-color:transparent;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 2px;
+    margin-left: 4px;
+    width: 150px;
+    color: rgb(75, 75, 75);
+    height: 20px;
+    font-family: 15px;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+.left-status-add-status-poster{
+    background-color:transparent;
+    border:none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 2px;
+    margin-left: 4px;
+    width: 150px;
+    color: rgb(75, 75, 75);
+    height: 20px; 
+    font-weight:bold;
+    font-size: 12px;
+    position: absolute;
+    bottom: 0px;
+    left: 43px;
+}
+.left-status-add-status-poster::first-letter{
+    text-transform: uppercase;
+}
+.left-status-all-status-p{
+    background-color:transparent;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 2px;
+    margin-left: 4px;
+    width: 90px;
+    color: rgb(75, 75, 75);
+    height: 20px;
+    font-family: 15px;
+    font-weight: bold;
+    font-size: 12px;
+}
+.left-status-all-status-p::first-letter{
+    text-transform: uppercase;
+}
+.left-status-all-status-div{
+    border: 1px solid  rgb(230, 230, 230);
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    position: relative;
+    padding-bottom: 30px;
+}
+.left-status-recent-container{
+    border-bottom:1px solid rgb(230, 230, 230) ;
+    width: 300px;
+    height: 45px;
+    display: flex;
+    position: relative;
+   
+}
+.left-status-recent-img-button{
+    border: 1px dashed rgb(0, 0, 0);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 2px;
+    margin-left: 1px;
+}
+.left-status-recent-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.left-status-recent-name{
+    background-color:transparent;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 4px;
+    margin-left: 4px;
+    width: 150px;
+    color: rgb(75, 75, 75);
+    height: 20px;
+    font-family: 15px;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+.left-status-recent-time{
+    background-color:transparent;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 2px;
+    margin-left: 4px;
+    width: 50px;
+    color: rgb(75, 75, 75);
+    height: 20px; 
+    font-weight:bold;
+    font-size: 12px;
+    position: absolute;
+    bottom: 0px;
+    left: 43px;
+    text-transform: uppercase;
+}
+.left-status-all-seen-status-p{
+    background-color:transparent;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 2px;
+    margin-left: 4px;
+    width: 90px;
+    color: rgb(75, 75, 75);
+    height: 20px;
+    font-family: 15px;
+    font-weight: bold;
+    font-size: 12px;
+}
+.left-status-all-seen-status-p::first-letter{
+    text-transform: uppercase;
+}
+
+.left-status-all-seen-status-div{
+    border: 1px solid  rgb(230, 230, 230);
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    position: relative;
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+}
+.left-status-viewed-updates-container{
+    border-bottom:1px solid rgb(230, 230, 230) ;
+    width: 300px;
+    height: 45px;
+    display: flex;
+    position: relative;
+}
+.left-status-viewed-updates-img-button{
+    border: 1px dashed rgb(4, 37, 224);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 2px;
+    margin-left: 2px;
+}
+.left-status-viewed-updates-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.left-status-viewed-updates-name{
+    background-color:transparent;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 4px;
+    margin-left: 4px;
+    width: 150px;
+    color: rgb(75, 75, 75);
+    height: 20px;
+    font-family: 15px;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+.left-status-viewed-updates-time{
+    background-color:transparent;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 2px;
+    margin-left: 4px;
+    width: 50px;
+    color:  rgb(51, 51, 51);
+    text-transform: uppercase;
+    height: 20px; 
+    font-weight:bold;
+    font-size: 12px;
+    position: absolute;
+    bottom: 0px;
+    left: 43px;
+}

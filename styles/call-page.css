@@ -1,0 +1,802 @@
+.recent-p{
+    border: none;
+    background-color:transparent;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 4px;
+    margin-left: 4px;
+    width: 150px;
+    color: rgb(75, 75, 75);
+    height: 20px;
+    font-family: 15px;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+.recent-call-friends-div{
+    border:none;
+    width: 100%;
+    height: 510px;
+    overflow: hidden;
+    position: relative;
+}
+.call-friends-div{
+    border:none;
+    border-top: 1px solid rgb(241, 241, 241);
+    width:100%;
+    height: 490px;
+    overflow-y: scroll;
+    position: relative;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.recieve-unrecieve-div{
+    border:none;
+    width: 100%;
+    height: 490px;
+    overflow-y: scroll;
+    position: relative;
+    border-top: 1px solid rgb(241, 241, 241);
+}
+.recieve-calls-container{
+    border: 1px solid rgb(241, 241, 241);
+    border-top: none;
+    width: 100%;
+    height: 45px;
+    display: flex;
+    position: relative;
+   
+}
+.recieve-calls-img-button{
+    border: 1px solid black;
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 2px;
+    margin-left: 2px;
+}
+.recieve-calls-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.recieve-calls-name{
+    border:none;
+    background-color:transparent;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 4px;
+    margin-left: 4px;
+    width: 150px;
+    color: rgb(75, 75, 75);
+    height: 20px;
+    font-family: 15px;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+.recieve-call-icon{
+    width: 12px;
+    height: 12px;
+}
+
+.recieve-calls-time{
+    border: none;
+    background-color:transparent;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 2px;
+    margin-left: 4px;
+    width: 130px;
+    color: rgb(75, 75, 75);
+    height: 20px; 
+    font-weight:bold;
+    font-size: 12px;
+    position: absolute;
+    bottom: 0px;
+    left: 43px;
+}
+.recieve-calls-icon-p{
+    background-color: transparent;
+    border-radius: 5px;
+    border: none;
+    margin-top: 2px;
+    margin-left: 4px;
+    width: 35px;
+    height: 20px; 
+    font-weight:bold;
+    font-size: 12px;
+    position: absolute;
+    margin-right: 4px;
+    padding: 2px;
+    bottom: 10px;
+    right: 0px;
+}
+.recieve-calls-icon-p:hover{
+    background-color: rgba(184, 184, 184, 0.5);
+}
+.recieve-callsvideo-icon{
+    width: 100%;
+    height: 100%;
+}
+/*unrecieve-calls*/
+.unrecieve-calls-container{
+    border: 1px solid rgb(226, 226, 226);
+    border-top: none;
+    width: 100%;
+    height: 45px;
+    display: flex;
+    position: relative;
+   
+}
+.unrecieve-calls-img-button{
+    border: 1px solid rgb(0, 0, 0);
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 2px;
+    margin-left: 2px;
+}
+.unrecieve-calls-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.unrecieve-calls-name{
+    border: none;
+    background-color:transparent;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 4px;
+    margin-left: 4px;
+    width: 150px;
+    color: rgb(75, 75, 75);
+    height: 20px;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.unrecieve-call-icon{
+    width: 12px;
+    height: 12px;
+}
+.unrecieve-calls-time{
+    border: none;
+    background-color:transparent;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 2px;
+    margin-left: 4px;
+    width: 130px;
+    color: rgb(75, 75, 75);
+    height: 20px; 
+    font-weight:bold;
+    font-size: 12px;
+    position: absolute;
+    bottom: 0px;
+    left: 43px;
+}
+.unrecieve-calls-icon-p{
+    background-color: transparent;
+    border-radius: 5px;
+    border: none;
+    margin-top: 2px;
+    margin-left: 4px;
+    width: 35px;
+    height: 20px; 
+    font-weight:bold;
+    font-size: 12px;
+    position: absolute;
+    margin-right: 4px;
+    padding: 2px;
+    bottom: 10px;
+    right: 0px;
+}
+.unrecieve-calls-icon-p:hover{
+    background-color: rgba(184, 184, 184, 0.5);
+    
+}
+.unrecieve-callsvideo-icon{
+    width: 100%;
+    height: 100%;
+}
+
+.add-call-videocall-div{
+    border:none;
+    background-color:transparent;
+    width: 60px;
+    height: 60px;
+    border-radius: 12px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    float: right;
+}
+.add-call-videocall-button{
+    background-color: rgb(1, 1, 100);
+    border:none;
+    width: 45px;
+    height: 45px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 2px black;
+}
+.add-call-videocall-icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 12px;
+}
+
+.call-friends-hindden-button{
+    background-color: rgb(1, 1, 100);
+    outline: none;
+    border: none;
+    width: 20px;
+    height: 20px;
+    margin-top: 4px;
+    margin-left: 4px;
+    border-radius: 6px;
+}
+.call-friends-hindden-icon{
+    width: 100%;
+    height: 100%;
+}
+/*call frient*/
+.call-friends-container{
+    border: 1px solid rgb(241, 241, 241);
+    border-top: none;
+    width: 100%;
+    height: 45px;
+    display: flex;
+    position: relative;
+   
+}
+.call-friends-img-button{
+    border: 1px solid black;
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 2px;
+    margin-left: 2px;
+}
+.call-friends-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.call-friends-name{
+    border:none;
+    background-color:transparent;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 4px;
+    margin-left: 4px;
+    width: 150px;
+    color: rgb(75, 75, 75);
+    height: 20px;
+    font-family: 15px;
+    font-weight:600;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+.call-friends-contact{
+    border: none;
+    background-color:transparent;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 2px;
+    margin-left: 4px;
+    width: 130px;
+    color: rgb(75, 75, 75);
+    height: 20px; 
+    font-weight:500;
+    font-size: 12px;
+    position: absolute;
+    bottom: 0px;
+    left: 43px;
+}
+.call-videocall-button-div{
+    border: none;
+    width: 80px;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    margin-right: 4px;
+    bottom: 10px;
+    right: 0px;
+}
+.call-friends-icon-p,.friends-video-icon-p{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    width: 35px;
+    height: 20px;
+    border-radius: 4px;
+}
+.friends-video-icon-p{
+   width: 32px;
+}
+.call-friends-icon-p:hover,.friends-video-icon-p:hover{
+    background-color: rgba(184, 184, 184, 0.5);
+}
+.call-friends-videocall-icon{
+    width: 100%;
+    height: 100%;
+}
+
+.friends-videocall-icon{
+    width: 100%;
+    height: 100%;
+} 
+
+
+/*call*/
+.call-show-div{
+    border: none;
+    background-image: url("http://127.0.0.1:5500/zeeta-folder/background-imgs/background-3.png");
+    position: fixed;
+    z-index: 9;
+    box-shadow: 0px 0px 2px black;    
+    display: none;
+}
+
+.call-show-img-p{
+    border:none;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 8px auto;
+    box-shadow: 0px 0px 2px black;
+}
+.call-show-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.call-show-name{
+    border:none;
+    width: 200px;
+    height: 25px;
+    text-align: center;
+    background-color:transparent;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(143, 143, 143);
+    font-weight: 900;
+    font-size: 18px;
+    text-transform: capitalize;
+    margin: auto;
+}
+.call-show-calling{
+    border:none;
+    width: 200px;
+    height: 25px;
+    text-align: center;
+    background-color:transparent;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(143, 143, 143);
+    font-weight:bold;
+    font-size: 14px;
+    text-transform: capitalize;
+    margin: auto;
+}
+.call-show-saveandorders{
+    border:1px solid black;
+    background-color:rgb(0, 0, 92);
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.call-show-speaker-button,.call-show-videocall-button,.call-show-voicehidden-button,.call-show-speaker-button,.call-show-download-button{
+    background-color:transparent;
+    border:1px solid transparent;
+    width: 35px;
+    height: 25px;
+    border-radius: 4px;
+}
+.call-show-call-button{
+    border:none;
+    background-color:red;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.call-show-call-button:hover{
+    background-color: rgb(211, 0, 0);
+}
+.call-show-speaker-icon,.call-show-videocall-icon,.call-show-voicehidden-icon,.call-show-download-icon{
+    width: 30px;
+    height: 20px;
+    transition: all 0.005s;
+}
+.call-show-call-icon{
+    width: 35px;
+    height: 25px;
+    transition: all 0.005s;
+}
+.call-show-speaker-icon:hover,.call-show-videocall-icon:hover,.call-show-voicehidden-icon:hover,.call-show-download-icon:hover{
+    width: 35px;
+    height: 25px;
+}
+.call-show-call-icon:hover{
+    width: 30px;
+    height: 20px;
+}
+/*videocall*/
+.videocall-show-div{
+    border: none;
+    background-image: url("http://127.0.0.1:5500/zeeta-folder/background-imgs/background-3.png");
+    position: fixed;
+    box-shadow: 0px 0px 2px black;   
+    z-index: 9;
+    display: none;
+}
+.videocall-show-secound-person{
+    border: 1px solid rgb(255, 0, 0);
+    width: 100%;
+    position: relative;
+    
+}
+.videocall-show-first-person{
+    border: 1px solid rgb(255, 1, 1);
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+.videocall-img-name-div{
+    border: none;
+    width: 100%;
+    height: 170px;
+}
+.videocall-show-img-p{
+    border:none;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 8px auto;
+    box-shadow: 0px 0px 2px black;
+}
+.videocall-show-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.videocall-show-name{
+    border:none;
+    width: 200px;
+    height: 25px;
+    text-align: center;
+    background-color:transparent;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(143, 143, 143);
+    font-weight: 900;
+    font-size: 18px;
+    text-transform: capitalize;
+    margin: auto;
+}
+.videocall-show-videocalling{
+    border:none;
+    width: 200px;
+    height: 25px;
+    text-align: center;
+    background-color:transparent;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(143, 143, 143);
+    font-weight:bold;
+    font-size: 14px;
+    text-transform: capitalize;
+    margin: auto;
+}
+.videocall-show-saveandorders{
+    border:1px solid black;
+    background-color:rgb(0, 0, 92);
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.videocall-show-speaker-button,.videocall-show-voice-button,.videocall-show-voicehidden-button,.videocall-show-download-button{
+    background-color: transparent;
+    border:none;
+    width: 35px;
+    height: 25px;
+    border-radius: 4px;
+}
+.videocall-show-videocall-button{
+    border:none;
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.videocall-show-videocall-button:hover{
+    background-color: rgb(211, 0, 0);
+}
+
+
+.videocall-show-speaker-icon,.videocall-show-voice-icon,.videocall-show-voicehidden-icon,.videocall-show-download-icon{
+    width: 30px;
+    height: 20px;
+    transition: all 0.005s;
+}
+.videocall-show-voice-icon{
+    width: 31px;
+    height: 20px;
+}
+.videocall-show-videocall-icon{
+    width: 35px;
+    height: 25px;
+    transition: all 0.005s;
+}
+.videocall-show-speaker-icon:hover,.videocall-show-voice-icon:hover,.videocall-show-voicehidden-icon:hover,.videocall-show-download-icon:hover{
+    width: 35px;
+    height: 25px;
+}
+.videocall-show-videocall-icon:hover{
+    width: 30px;
+    height: 20px;
+}
+
+/*accept call*/
+.accept-call-show-div{
+    border:none;
+    background-color: blanchedalmond;
+    background-image: url("http://127.0.0.1:5500/zeeta-folder/background-imgs/background-3.png");
+    position: fixed;
+    z-index: 9;
+    box-shadow: 0px 0px 2px black;
+    display: none;
+}
+.accept-call-show-img-p{
+    border:none;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 8px auto;
+    box-shadow: 0px 0px 2px black;
+}
+.accept-call-show-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.accept-call-show-name{
+    border:none;
+    width: 200px;
+    height: 25px;
+    text-align: center;
+    background-color:transparent;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(143, 143, 143);
+    font-weight: 900;
+    font-size: 18px;
+    text-transform: capitalize;
+    margin: auto;
+}
+.accept-call-show-calling{
+    border:none;
+    width: 200px;
+    height: 25px;
+    text-align: center;
+    background-color:transparent;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(143, 143, 143);
+    font-weight:bold;
+    font-size: 14px;
+    text-transform: capitalize;
+    margin: auto;
+}
+.call-slice-to-answer-div{
+    background-color: rgb(0, 0, 85);
+    border: 1px solid black;
+    width: 60%;
+    left:20%;
+    right:20% ;
+    height: 60px;
+    position: absolute;
+    bottom: 10px;
+    border-radius: 30px;
+    animation-name: toleft;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-duration:  4s;
+    opacity: .92;
+}
+@keyframes toleft{
+    10%{background-image: linear-gradient(to left, rgb(0, 0, 85)100%);}
+    20%{background-image: linear-gradient(to left, rgb(0, 0, 85)90%,rgb(2, 2, 148) 10%);}
+    30%{background-image: linear-gradient(to left, rgb(0, 0, 85)80%,rgb(2, 2, 148) 20%);}
+    40%{background-image: linear-gradient(to left, rgb(0, 0, 85)70%,rgb(2, 2, 148) 30%);}
+    50%{background-image: linear-gradient(to left, rgb(0, 0, 85)60%,rgb(2, 2, 148) 40%);}
+    60%{background-image: linear-gradient(to left, rgb(0, 0, 85)50%,rgb(2, 2, 148) 50%);}
+    70%{background-image: linear-gradient(to left, rgb(0, 0, 85)40%,rgb(2, 2, 148) 60%);}
+    80%{background-image: linear-gradient(to left, rgb(0, 0, 85)30%,rgb(2, 2, 148) 70%);}
+    90%{background-image: linear-gradient(to left, rgb(0, 0, 85)20%,rgb(2, 2, 148) 80%);}
+    100%{background-image: linear-gradient(to left, rgb(0, 0, 85)10%,rgb(2, 2, 148) 90%);}
+}
+.call-slice-to-answer-p{
+    border:none;
+    width: 100px;
+    height: 20px;
+    padding-top:20px ;
+    padding-bottom:35px ;
+    position: relative;
+    margin-left: 70px;
+    background-color:transparent;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(192, 192, 192);
+    font-weight:400;
+    font-size: 13px;
+    text-align: center;
+    text-shadow: 0px 0px 1px black;
+    
+}
+.accept-call-button{
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: 4px;
+    left: 2%;
+    box-shadow: 0px 0px 1px black;
+}
+.accept-call-icon{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+/*accept videocall*/
+.accept-videocall-show-div{
+    border:none;
+    background-image: url("http://127.0.0.1:5500/zeeta-folder/background-imgs/background-3.png");
+    position: fixed;
+    z-index: 9;
+    box-shadow: 0px 0px 2px black;
+    display: none;
+    
+}
+.accept-videocall-show-img-p{
+    border:none;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 8px auto;
+    box-shadow: 0px 0px 2px black;
+}
+.accept-videocall-show-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.accept-videocall-show-name{
+    border:none;
+    width: 200px;
+    height: 25px;
+    text-align: center;
+    background-color:transparent;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(143, 143, 143);
+    font-weight: 900;
+    font-size: 18px;
+    text-transform: capitalize;
+    margin: auto;
+}
+.accept-videocall-show-calling{
+    border:none;
+    width: 200px;
+    height: 25px;
+    text-align: center;
+    background-color:transparent;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(143, 143, 143);
+    font-weight:bold;
+    font-size: 14px;
+    text-transform: capitalize;
+    margin: auto;
+}
+.videocall-slice-to-answer-div{
+    background-color: rgb(0, 0, 85);
+    border: 1px solid black;
+    width: 60%;
+    left:20%;
+    right:20% ;
+    height: 60px;
+    position:absolute;
+    bottom: 10px;
+    border-radius: 30px;
+    animation-name: toleft;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-duration:  4s;
+    opacity: .92;
+}
+@keyframes toleft{
+    10%{background-image: linear-gradient(to left, rgb(0, 0, 85)100%);}
+    20%{background-image: linear-gradient(to left, rgb(0, 0, 85)90%,rgb(2, 2, 148) 10%);}
+    30%{background-image: linear-gradient(to left, rgb(0, 0, 85)80%,rgb(2, 2, 148) 20%);}
+    40%{background-image: linear-gradient(to left, rgb(0, 0, 85)70%,rgb(2, 2, 148) 30%);}
+    50%{background-image: linear-gradient(to left, rgb(0, 0, 85)60%,rgb(2, 2, 148) 40%);}
+    60%{background-image: linear-gradient(to left, rgb(0, 0, 85)50%,rgb(2, 2, 148) 50%);}
+    70%{background-image: linear-gradient(to left, rgb(0, 0, 85)40%,rgb(2, 2, 148) 60%);}
+    80%{background-image: linear-gradient(to left, rgb(0, 0, 85)30%,rgb(2, 2, 148) 70%);}
+    90%{background-image: linear-gradient(to left, rgb(0, 0, 85)20%,rgb(2, 2, 148) 80%);}
+    100%{background-image: linear-gradient(to left, rgb(0, 0, 85)10%,rgb(2, 2, 148) 90%);}
+}
+.videocall-slice-to-answer-p{
+    border:none;
+    width: 100px;
+    height: 20px;
+    padding-top:20px;
+    padding-bottom:35px;
+    position: relative;
+    margin-left: 70px;
+    background-color:transparent;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(192, 192, 192);
+    font-weight:400;
+    font-size: 13px;
+    text-align: center;
+    text-shadow: 0px 0px 1px black;
+    
+}
+.accept-videocall-button{
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: 4px;
+    left: 2%;
+    box-shadow: 0px 0px 1px black;
+}
+.accept-videocall-icon{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+@media(max-width:630px){
+    .call-show-div,.videocall-show-div,.accept-call-show-div,.accept-videocall-show-div{
+        width:100%;
+        top: 0px;
+        height:100%;
+    }
+    .videocall-show-secound-person{
+        height: 597px;
+    }
+}
+@media(min-width:630px ) and (max-width:750px){
+    .call-show-div,.videocall-show-div,.accept-call-show-div,.accept-videocall-show-div{
+        width:90%;
+        left: 5%;
+        right: 5%;
+        top: 40px;
+        height: 592px;
+    }
+    .videocall-show-secound-person{
+        height: 512px;
+    }
+}
+@media(min-width:750px ) and (max-width:2000px){
+    .call-show-div,.videocall-show-div,.accept-call-show-div,.accept-videocall-show-div{
+            width:60%;
+            left: 20%;
+            right: 20%;
+            top: 40px;
+            height: 592px;
+        }
+        .videocall-show-secound-person{
+            height: 512px;
+        }
+}

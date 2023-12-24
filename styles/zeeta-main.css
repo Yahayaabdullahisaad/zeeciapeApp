@@ -1,0 +1,540 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(234, 234, 234);
+}
+.header,.a-div,.chat-pick-a-div{
+    background-color: rgb(28, 9, 112);
+    box-shadow: 0px 2px 0px rgb(209, 209, 209);
+}
+.camera-icon,.search-icon,.manu-icon{
+    width: 22px;
+    height: 22px;
+    mix-blend-mode: screen;
+}
+.camera-icon{
+    width: 24px;
+    height: 22px;
+}
+.header-left-aboutme-div{
+    background-color: rgba(0, 0, 31, 0.822);
+    border: none;
+    outline: none;
+    width: 70px;
+    height: 20px;
+    position: absolute;
+    bottom: -23px;
+    right:0px;
+    z-index: 2;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0px 0px 2px rgb(73, 73, 73);
+    display: none;
+}
+.header-left-aboutme-div:hover{
+    background-color: rgba(0, 0, 31, 0.924);
+}
+.header-left-aboutme-p{
+    background-color:transparent;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:rgb(163, 163, 163);
+    font-weight:600;
+    font-size: 13px;
+    text-transform: capitalize;
+}
+.app-name{  
+    border:none;
+    height: 30px;
+    width: 130px;
+    text-transform: capitalize;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    color: blue;
+    font-size: 20px;
+    text-align: center;
+}
+.zeeciape-inside-logo{
+    width: 100%;
+    height: 100%;
+}
+
+
+@media(max-width:630px){
+.header{
+    max-width:100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.search-input-div{
+    display: none;
+}
+.header-left-div{
+    width:130px;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+.search,.camera,.menu{
+    background-color: rgb(24, 7, 100);
+    border: none;
+    outline: none;
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+    padding: 4px;
+    transition: all 0.005s;
+    cursor: pointer;
+}
+.search:hover,.camera:hover,.menu:hover{
+    background-color: rgb(17, 4, 73);
+   
+}
+.a-div{
+    max-width:100%;
+    height: 24px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+   
+    
+}
+
+.chat-pick-div{
+    display: none;
+}
+a{
+    text-decoration:none;
+}
+
+.a-chats-p,.a-shorts-p,.a-status-p,.a-calls-p{
+    background-color:  rgb(18, 0, 95);
+    border:none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 4px;
+    color: rgb(204, 203, 203);
+    text-transform: capitalize;
+    font-size: 12px;
+    font-weight: 700;
+    position: relative;
+    transition: all 0.005s;
+    top: 0px;
+    
+}
+.a-chats-p:hover,.a-shorts-p:hover,.a-status-p:hover,.a-calls-p:hover{
+    background-color:  rgb(14, 0, 78);
+}
+.mobile-chats-notification,.mobile-shorts-notification,.mobile-status-notification,.mobile-calls-notification{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: none;
+    background-color:rgba(255, 0, 8, 0.721);
+    max-width: 40px;
+    min-width: 20px;
+    font-size: 11px;
+    font-weight: bold;
+    height: 14px;
+    position: absolute;
+    padding-left:2px ;
+    padding-right: 2px;
+    top: -10px;
+    right: -10px;
+    border-radius: 6px;
+}
+.chat-place-pick-iii-div-section{
+    display: block;
+}
+.sections-div{
+    border: 1px solid rgb(255, 0, 0);
+    width: 100%;
+    height:591px;
+    overflow-y: hidden;
+}
+.chats-div,.shorts-div,.status-div,.calls-div{
+    width: 100%;
+    height: 600px;
+}
+.chats-div{
+    border: 1px solid rgb(226, 20, 20);
+    position: relative;
+    overflow: hidden;
+}
+.shorts-div{
+    border: 1px solid rgb(92, 20, 226);
+}
+.status-div{
+    border: 1px solid rgb(20, 226, 47);
+    overflow-y: scroll;
+    position: relative;
+}
+.calls-div{
+    border: 1px solid rgb(226, 20, 192);
+}
+.status-section{
+    display: none;
+}
+
+}
+@media(min-width:630px ) and (max-width:750px){
+.header{
+    max-width:100%;
+    height: 40px;
+    display: grid;
+    grid-template-columns: 0.6fr 2fr 0.5fr;
+    align-items: center;
+}
+.header-left-div{
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+.search-input-div{
+    border: 1px solid rgb(1, 1, 192);
+    height: 35px;
+    position: relative;
+    margin-left: 0px;
+    margin-right: 30px;
+    border-radius: 12px 12px 12px 12px;
+}
+.search-input-div:hover{
+    border: 1px solid rgb(68, 0, 255);
+}
+.search-input{
+    background-color: rgb(234, 234, 234);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    border: none;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    padding-left: 6px;
+    border-radius: 10px 10px 10px 10px;
+}
+.search-button{
+    background-color: rgb(0, 0, 105);
+    padding: 0px;
+    margin: 0px;
+    outline: none;
+    width: 40px;
+    height: 100%;
+    vertical-align: top;
+    position: absolute;
+    right: 0px;
+    border-radius: 10px 10px 10px 10px;
+    border: none;
+}
+.camera,.menu{
+    background-color: rgb(24, 7, 100);
+    border: none;
+    width:30px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 4px;
+    transition: all 0.005s;
+}
+.camera:hover,.menu:hover{
+    background-color: rgb(17, 4, 73);
+}
+.search{
+    display: none;
+}
+
+.andriod-desktop-exhange-div{
+    border: 1px solid black;
+    width: 100%;
+    height: 591px;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+}
+.a-div{
+   display: none;
+   height: 0px;
+}
+
+.chat-pick-div{
+    border: 1px solid rgb(3, 255, 234);
+    max-width:100%;
+    height: 590px;
+    position: relative;
+}
+.chat-pick-a-div{
+    border: 1px solid rgb(0, 0, 0);
+    max-width:100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    position: relative;
+    padding-bottom: 2px;
+}
+.chat-pick-div{
+    display: block;
+}
+a{
+    text-decoration:none;
+}
+.chat-pick-a-chats-p,.chat-pick-a-shorts-p,.chat-pick-a-status-p,.chat-pick-a-calls-p{
+    background-color:  rgb(18, 0, 95);
+    border:none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 4px;
+    color: rgb(204, 203, 203);
+    text-transform: capitalize;
+    font-size: 12px;
+    font-weight: bold;
+    position: relative;
+    transition: all 0.005s;
+    top: 0px;
+}
+
+.chat-pick-a-chats-p:hover,.chat-pick-a-shorts-p:hover,.chat-pick-a-status-p:hover,.chat-pick-a-calls-p:hover{
+    background-color:  rgb(14, 0, 78);
+}
+.system-chats-notification,.system-shorts-notification,.system-status-notification,.system-calls-notification{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: none;
+    background-color:rgba(255, 0, 8, 0.721);
+    max-width: 40px;
+    min-width: 20px;
+    font-size: 11px;
+    font-weight: bold;
+    height: 14px;
+    position: absolute;
+    padding-left:2px ;
+    padding-right: 2px;
+    top: -10px;
+    right: -8px;
+    border-radius: 6px;
+}
+p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+    font-weight: 500;
+}
+.chat-place-pick-iii-div-section{
+    display: none;
+}
+.sections-div{
+    border: 1px solid rgb(255, 0, 0);
+    width: 100%;
+    height: 591px;
+    overflow-y: hidden;
+}
+.chats-div,.shorts-div,.status-div,.calls-div{
+    width: 100%;
+    height: 600px;
+}
+.chats-div{
+    border: 1px solid rgb(226, 20, 20);
+}
+.shorts-div{
+    border: 1px solid rgb(92, 20, 226);
+}
+.status-div{
+    border: 1px solid rgb(20, 226, 47);
+    overflow-y: scroll;
+    position: relative;
+}
+.calls-div{
+    border: 1px solid rgb(226, 20, 192);
+}
+.status-section{
+    display: none;
+}
+
+
+}
+@media(min-width:750px ) and (max-width:2000px){
+.header{
+    max-width:100%;
+    height: 40px;
+    display: grid;
+    grid-template-columns: 0.6fr 2fr 0.3fr;
+    align-items: center;
+}
+.header-left-div{
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+.search-input-div{
+    border: 1px solid rgb(1, 1, 192);
+    height: 35px;
+    position: relative;
+    margin-left: 0px;
+    margin-right: 30px;
+    border-radius: 12px 12px 12px 12px;
+}
+.search-input-div:hover{
+    border: 1px solid rgb(68, 0, 255);
+}
+.search-input{
+    background-color: rgb(234, 234, 234);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    border: none;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    padding-left: 6px;
+    border-radius: 10px 10px 10px 10px;
+}
+.search-button{
+    background-color: rgb(0, 0, 105);
+    padding: 0px;
+    margin: 0px;
+    outline: none;
+    width: 40px;
+    height: 100%;
+    vertical-align: top;
+    position: absolute;
+    right: 0px;
+    border-radius: 10px 10px 10px 10px;
+    border: none;
+}
+.camera,.menu{
+    background-color: rgb(24, 7, 100);
+    border: none;
+    width:30px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 4px;
+    transition: all 0.005s;
+}
+.camera:hover,.menu:hover{
+    background-color: rgb(17, 4, 73);
+}
+.search{
+    display: none;
+}
+
+
+.andriod-desktop-exhange-div{
+    border: 1px solid black;
+    width: 100%;
+    height: 589px;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr;
+}
+.chat-pick-div{
+    border: 1px solid rgb(3, 255, 234);
+    max-width:100%;
+    height: 590px;
+    position: relative;
+}
+.chat-pick-a-div{
+    border: 1px solid rgb(0, 0, 0);
+    max-width:100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    position: relative;
+    padding-bottom: 2px;
+}
+.chat-pick-a-chats-p,.chat-pick-a-shorts-p,.chat-pick-a-status-p,.chat-pick-a-calls-p{
+    background-color:  rgb(18, 0, 95);
+    border:none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 4px;
+    color: rgb(204, 203, 203);
+    text-transform: capitalize;
+    font-size: 12px;
+    font-weight: bold;
+    position: relative;
+    transition: all 0.005s;
+    top: 0px;
+}
+
+.chat-pick-a-chats-p:hover,.chat-pick-a-shorts-p:hover,.chat-pick-a-status-p:hover,.chat-pick-a-calls-p:hover{
+    background-color:  rgb(14, 0, 78);
+}
+.system-chats-notification,.system-shorts-notification,.system-status-notification,.system-calls-notification{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: none;
+    background-color:rgba(255, 0, 8, 0.721);
+    max-width: 40px;
+    min-width: 20px;
+    font-size: 11px;
+    font-weight: bold;
+    height: 14px;
+    position: absolute;
+    padding-left:2px ;
+    padding-right: 2px;
+    top: -10px;
+    right: -8px;
+    border-radius: 6px;
+}
+.a-div,.status-div,#chat-pick-a-status-p{
+   display: none;
+   height: 0px;
+}
+
+
+a{
+    text-decoration:none;
+}
+p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+    font-weight: 500;
+}
+.chat-place-pick-iii-div-section{
+    display: none;
+}
+.sections-div{
+    border: 1px solid black;
+    width: 100%;
+    height:591px;
+    overflow: hidden;
+}
+.chats-div,.shorts-div,.status-div-onleft,.calls-div{
+    width: 100%;
+    height: 600px;
+}
+.chats-div{
+    border: 1px solid rgb(226, 20, 20);
+}
+.shorts-div{
+    border: 1px solid rgb(92, 20, 226);
+}
+.status-div-onleft{
+    border: 1px solid rgb(20, 226, 47);
+    overflow-y: scroll;
+    position: relative;
+}
+.calls-div{
+    border: 1px solid rgb(226, 20, 192);
+   
+    position: relative;
+}
+.status-section{
+    border: 1px solid rgb(255, 251, 3);
+    max-width:100%;
+    height: 621;
+    overflow: hidden;
+    position: relative;
+}
+
+}

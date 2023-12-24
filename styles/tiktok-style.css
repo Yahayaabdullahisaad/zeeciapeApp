@@ -1,0 +1,1425 @@
+::-webkit-scrollbar{
+    background-color: rgba(255, 255, 255, 0.89);
+    width: 4px;
+    height: 4px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgba(230, 230, 230, 0.89);
+    width: 4px;
+    height: 2px;
+}
+.follow-for-you-div{
+    width: 200px;
+    height: 25px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+}
+.follow-for-you-div::after{
+    background-color: rgb(112, 112, 112);
+    content: "";
+    width: 2px;
+    height: 5px;
+    left: 107px;
+    top: 10px;
+    font-weight: 400;
+    position: absolute;
+}
+.follow-b,.for-you-b{
+    background-color: transparent;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.follow-b{
+    font-weight: 400;
+}
+.for-you-b{
+    margin-left: 10px;
+}
+.shorts-container{
+    border: 1px solid black;
+    width: 100%;
+    height: 350px;
+    position: relative;
+}
+.commend-about-div{
+    border: 2px solid rgb(0, 255, 13);
+    background-color:white;
+    width: 100%;
+    height: 350px;
+    position: absolute;
+    top: 0px;
+    z-index: 5;
+    display: none;
+}
+.commend-about-container{
+    border:none;
+    width: 100%;
+    height: 284px;
+    border-top: 1px solid rgb(216, 216, 216);
+    border-bottom: 1px solid rgb(216, 216, 216);
+    position: relative;
+}
+.commend-about-container-scroll{
+    border:none;
+    width: 100%;
+    height: 284px;
+    overflow-y: scroll;
+}
+.commend-about-keyboad-div{
+    border: none;
+    height: 38px;
+    max-width: 99%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+    position: relative;
+    
+}
+.commend-about-search-input-div{
+    border: 1px solid rgb(1, 1, 192);
+    width: 90%;
+    height: 35px;
+    position: relative;
+    margin-left: 0px;
+    align-items: center;
+    border-radius: 12px 12px 12px 12px;
+}
+.commend-about-search-input-div:hover{
+    border: 1px solid rgb(68, 0, 255);
+}
+.hidden-commend-about-div{
+    background-color: rgb(13, 0, 128);
+    width: 20px;
+    height: 20px;
+    border: none;
+    outline: none;
+    display: inline;
+    border-radius: 6px;
+    margin-left: 4px;
+    margin-top: 2px;
+}
+.commend-about-p-count{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: 1px solid black;
+    border: none;
+    outline: none;
+    width: 60px;
+    font-size: 13px;
+
+}
+.hiddencommendabout-arrowleft-icon{
+    width: 20px;
+    height: 20px;
+}
+.commend-about-p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border:none;
+    width: 60%;
+    height: 20px;
+    color: rgb(104, 104, 104);
+    display: inline;
+    text-align: center;
+    position: absolute;
+    font-size: 15px;
+    margin-left:20% ;
+    margin-right: 20%;
+}
+/*textarea*/
+.commend-about-search-input{
+    border:1px solid rgb(216, 216, 216);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    width: 70%;
+    height: 100%;
+    outline: none;
+    padding-left: 6px;
+    resize: none;
+    border-radius: 4px;
+    margin-left: 15%;
+    margin-right: 15%;
+    
+}
+.commend-about-emoji-button {
+    background-color: rgb(0, 0, 105);
+    padding: 0px;
+    margin: 0px;
+    outline: none;
+    width: 30px;
+    height: 30px;
+    vertical-align: top;
+    position: absolute;
+    left: 2px;
+    bottom: 2px;
+    border-radius: 50%;
+    border: none;
+            
+}
+.commend-hidden-keyboard-button{
+    background-color: rgb(0, 0, 105);
+    padding: 3px;
+    padding-top: 5px;
+    margin: 0px;
+    outline: none;
+    width: 30px;
+    height: 30px;
+    vertical-align: top;
+    position: absolute;
+    right: 2px;
+    bottom: 2px;
+    border-radius: 50%;
+    border: none;
+}
+.commend-about-send{
+    background-color: rgb(0, 0, 105);
+    width: 35px;
+    height: 35px;
+    position: relative;
+    vertical-align: center;
+    border-radius: 50%;
+    border: none;
+    margin-left: 4px;
+    margin-bottom: 2px;
+    padding-left: 2px;
+}
+.commend-about-send:hover,.commend-hidden-keyboard-button:hover,.commend-about-emoji-button:hover{
+    background-color: rgb(0, 0, 56);
+}
+.commend-about-emoji-icon{
+    width: 20px;
+    height: 20px;
+}
+.commend-hidden-keyboard-icon{
+    width: 22px;
+    height: 22px;
+}
+/*/////////////////////////////////*/
+.commend-hidden-keyboard-discription,.click-to-audio,.emoji-show{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: none;
+    background-color:rgb(36, 41, 36);
+    text-transform: capitalize;
+    position: absolute;
+    font-size: 10px;
+    width: 35px;
+    color: rgb(218, 218, 218);
+    top: -22px;
+    font-weight: bold;
+    text-align: center;
+    z-index: 2;
+    padding: 0px 2px;
+    padding-bottom: 2px;
+    border-radius: 2px;
+    pointer-events: none;
+    transition: all 0.05s;
+    opacity: 0;
+    box-shadow: 0px 0px 2px black;
+}
+.commend-hidden-keyboard-discription{
+    width: 90px;
+    left: -35px;
+}
+.click-to-audio{
+    width: 75px;
+    left: -35px;
+}
+.emoji-show{
+    width: 70px;
+}
+.commend-about-send:hover .click-to-audio,.commend-hidden-keyboard-button:hover .commend-hidden-keyboard-discription,.commend-about-emoji-button:hover .emoji-show{
+    opacity: 1;
+}
+.vidio-container{
+    border: 1px solid rgb(255, 0, 0);
+    width: 100%;
+    height: 300px;
+    position: relative;  
+}
+.video{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.comment-like-share-div{
+    border: 1px solid black;
+    width: 50px;
+    height: 294px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    z-index: 2;
+}
+.comment-div{
+    border: 1px solid black;
+    width: 80%;
+    height: 60px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: 1;
+}
+.follows-button,.comment-button,.like-button,.share-button,.music-button{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: 40px ;
+    height: 33px;
+    margin-top: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 50%;
+    padding: 4px;
+    position: relative;
+}
+.like-button{
+    padding-top: 6px;
+}
+
+.follows-button,.music-button{
+    border: 2px solid #000000;
+    padding: 0px;
+    width: 40px ;
+    height: 40px;
+    
+}
+.music-button{
+    background-color: black;
+    border: 6px solid rgb(0, 0, 0);
+    animation-name: rotate;
+    animation-duration:  2s;
+    animation-iteration-count: infinite;
+   
+}
+@keyframes rotate{
+    25%{border: 4px solid rgb(156, 4, 4);}
+    100%{transform: rotate(360deg);}
+    
+}
+.comment-icon,.like-icon,.share-icon,.music-icon{
+    width: 30px;
+    height: 30px;
+    mix-blend-mode: screen;
+    border-radius: 30%;
+}
+.comment-icon{
+    width: 35px;
+    height: 35px;
+}
+.like-icon{
+    border: 2px solid transparent;
+    width: 35px;
+    height: 35px;
+}
+.like-icon:active{
+   border: 0px solid transparent;
+}
+.music-icon{
+    width: 20px;
+    height: 20px;
+}
+.commend-about-send-icon{
+    width: 30px;
+    height: 29px;
+    mix-blend-mode: screen;
+    border-radius: 30%;
+}
+.add-followers{
+    border: 1px solid black;
+    background-color: red;
+    border: none;
+    outline: none;
+    width: 19px;
+    height: 14px;
+    top: 40px;
+    position: absolute;
+    z-index: 2;
+    left: 16px;
+    border-radius: 50px;
+    color: white;
+    font-weight: lighter;
+}
+.like-count,.comment-count,.share-count{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color:transparent;
+    width: 40px ;
+    height: 16px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 50%;
+    margin-top: -6px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    position: relative;
+    color: white;
+}
+.a{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.shows-comment-like-share-div{
+    background-color:rgb(0, 0, 117);
+    border: none;
+    outline: none;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 4px;
+    top: 7px;
+    border-radius:6px;
+}
+.arrow-left-icon{
+    width: 18px;
+    height: 18px;
+    mix-blend-mode: screen;
+    border-radius: 50%;
+}
+.share-div{
+    background-color: rgba(234, 234, 234, 0.96);
+    width: 100%;
+    height: 235px;
+    position: absolute;
+    bottom: 0px;
+    z-index: 3;
+    text-align: center;
+    box-shadow: 0px 0px 4px black;
+    display: none;
+}
+.share-to-friend-div,.sharetoapp-block-save-div{
+    border-top: 1px solid rgb(160, 160, 160);
+    width: 100%;
+    height: 110px;
+}
+.hindden-sharediv-button{
+    border: none;
+    border-top: 1px solid rgb(160, 160, 160);
+    background-color: transparent;
+    outline: none;
+    width: 40%;
+    height: 30px;
+    color: rgb(216, 216, 216);
+    color: rgb(80, 80, 80);
+    position: absolute;
+    font-weight: bold;
+    right: 30%;
+    left: 30%;
+    bottom: 0px;
+    z-index: 4;
+}
+.sharetoapp-block-save,.share-to-friend{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(223, 223, 223);
+    color: rgb(80, 80, 80);
+}
+.share-to-friend-div{
+    border-top: 1px solid rgb(160, 160, 160);
+    height: 85px;
+    align-items: center;
+    overflow-x: scroll;
+}
+.friend-img-button-div{
+    width: 614px;
+    padding-top: 5px;
+    align-items: center;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+}
+.share-to-friend-name-div{
+    width: 614px;
+    height: 36px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+.share-to-order-app-div{
+    width: 250px;
+    height: 50px;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+}
+.friends-message-orders-div{
+    width: 250px;
+    height: 20px;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    vertical-align: top;
+    margin-top: 0px;
+}
+.block-button-download-button-div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.blockp-downloadp-div{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.user-i,.user-ii,.user-iii,.user-iv,.user-v,.user-vi,.user-vii,.user-viii,.user-ix,.user-x{
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgb(153, 153, 153);
+    border-radius: 50%;
+}
+.user-x{
+    background-color: rgb(4, 1, 36);
+    border: none;
+    width: 35px;
+    height: 35px;
+    padding: 3px;
+    
+}
+.useri-searchicon-img,.userii-searchicon-img,.useriii-searchicon-img,.useriv-searchicon-img,.userv-searchicon-img,.uservi-searchicon-img,.uservii-searchicon-img,.userviii-searchicon-img,.userix-searchicon-img,.userx-searchicon-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.user-i-name-p,.user-ii-name-p,.user-iii-name-p,.user-iv-name-p,.user-v-name-p,.user-vi-name-p,.user-vii-name-p,.user-viii-name-p,.user-ix-name-p,.user-x-name-p{
+    border: 1px solid rgb(255, 255, 255);
+    border-left: none;
+    border: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 10px;
+    text-align: center;
+    width: 150px;
+    height: 30px;
+    align-items: center;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin: 0px;
+    word-break: break-word;
+    text-overflow: ellipsis;
+    border-radius: 4px;
+    overflow: hidden;
+    text-transform: capitalize;
+    color: rgb(207, 207, 207);
+    color: rgb(80, 80, 80);
+    font-weight: 750;
+
+}
+.user-x-name-p{
+    font-weight: 800;
+}
+.block-button,.download-button{
+    background-color: rgb(4, 1, 36);
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 15px;
+}
+.block-button{
+    margin-left: 6px;
+}
+.download-button{
+    margin-right: 6px;
+}
+.share-inside-icon-button,.message-icon-button,.whatapp-icon-button,.email-icon-button,.link-color-icon-button{
+    border:1px solid rgb(0, 0, 146);
+    background-color:rgb(1, 1, 118);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 4px;
+}
+.share-inside-icon,.message-icon,.whatapp-icon,.email-icon,.link-color-icon{
+    width: 100%;
+    height: 100%;
+}
+
+.block-icon,.download-icon{
+    width: 70%;
+    height: 70%;
+}
+.email-icon{
+    width: 80%;
+    height: 80%;
+}
+
+.friends,.message,.whatapp,.email,.link,.block-p,.download-p{
+    border:none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 10px;
+    height: 15px;
+    align-items: center;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin: 0px;
+    border-radius: 4px;
+    text-transform: capitalize;
+    color: rgb(80, 80, 80);
+    font-weight: bold;
+}
+.message{
+    text-transform: uppercase;
+}
+.block-p{
+    border:none;
+    margin-left: 8px;
+    margin-top: 2px;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-weight: bold;
+    font-size: 12px;
+}
+.download-p{
+    border:none;
+    font-weight: bold;
+    padding-left: 4px;
+    margin-top: 2px;
+    font-size: 12px;
+}
+.emoji-div{
+    border: 1px solid rgb(200, 200, 200);
+    background-color: rgba(8, 2, 66, 0.89);
+    border:none;
+    width: 88%;
+    height: 115px;
+    position: absolute;
+    bottom: 0px;
+    left: 0%;
+    right:12%;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.644);
+    text-align: center;
+    overflow-x: scroll;
+    display: none;
+    z-index: 4;
+}
+.emoji-container{
+    border:none;
+    border-bottom: 1px solid rgb(200, 200, 200);
+    width: 537px;
+    height: 105px;
+    margin:5px 0px;
+}
+.emoji{
+    background-color: rgb(8, 2, 66);
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    width: 33px;
+    height: 33px;
+    font-size: 25px;
+    transition: all 0.005s;
+}
+.emoji:hover{
+    background-color: rgb(218, 218, 218);
+    background-color: rgb(4, 0, 27);
+}
+.commend-about-link-container{
+    border: 1px solid black;
+    background-color: rgb(22, 24, 22);
+    position:absolute;
+    width: 150px;
+    height: 130px;
+    bottom: 0px;
+    right: 10px;
+    border-radius: 3px;
+    transition: all 0.05s;
+    display:none;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 5px;
+    box-shadow: 0px 0px 4px black;
+}
+.hidden-commend-about-link-container{
+    background-color: rgba(255, 60, 0, 0.287);
+    border: none;
+    outline: none;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 0px;
+    color: rgb(131, 131, 131);
+    right: 0px;
+    cursor: pointer;
+}
+.hidden-commend-about-link-container:hover{
+    background-color: rgb(194, 47, 2);
+    color: white;
+}
+.commend-about-link-container-row-icon{
+    border: none;
+    width: 140px;
+    height: 42px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    align-items: center;
+}
+.commend-about-link-container-row-name{
+    border:none;
+    width: 140px;
+    height: 13px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    align-items: center;
+    
+}
+.commend-about-gellary-file,.commend-about-camera-file,.commend-about-document-file,.commend-about-audio-file{
+    border: 1px solid black;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    z-index: 100;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0;
+}
+
+.commend-about-gellary-button,.commend-about-camera-button,.commend-about-document-button,.commend-about-audio-button{
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 8px;
+    position: relative;
+   
+}
+.commend-about-gellary-button{
+    background-image: linear-gradient(rgb(184, 0, 159) 50%,rgb(255, 2, 221) 50%);
+}
+.commend-about-camera-button{
+    background-image: linear-gradient(rgb(195, 0, 0) 50%,red 50%);
+}
+.commend-about-document-button{
+    background-image: linear-gradient(rgb(170, 1, 200) 50%,rgb(202, 0, 238) 50%);
+}
+.commend-about-audio-button{
+    background-image: linear-gradient(rgb(218, 70, 2) 50%,rgb(255, 81, 0) 50%);
+}
+.commend-about-gellary-icons,.commend-about-camera-icons,.commend-about-document-icons,.commend-about-audio-icons{
+    width: 25px;
+    height: 25px;
+}
+.commend-about-link-container-gellary,.commend-about-link-container-camera,.commend-about-link-container-document,.commend-about-link-container-audio{
+    background-color:transparent;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 2px;
+    margin-left: 4px;
+    width: 50px;
+    color: rgb(112, 112, 112);
+    height: 20px; 
+    font-size: 12px;
+    text-transform: capitalize;
+    
+}
+.voice-record-container{
+    border:none;
+    width: 100%;
+    height: 140px;
+    position: absolute;
+    bottom: -40px;
+    z-index: 4;
+    overflow: hidden;
+    display: none;
+}
+.commend-about-send:hover .voice-record-container{
+    opacity: 1;
+}
+.voicelock-div{
+    border: none;
+    background-color: rgb(0, 0, 85);
+    width: 40px;
+    height: 98px;
+    top: 0px;
+    right: 0px;
+    position: absolute;
+    border-radius: 20px 20px 0px 0px;
+    text-align: center;
+    padding-top: 10px; 
+    
+}
+
+.voicecount-div{
+    background-color: rgb(0, 0, 85);
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    border-radius: 20px 0px 0px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+    bottom: 0px;
+   
+}
+
+.audiop-timep-record-div{
+    width: 110px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 12px 0px 0px 12px;
+}
+.commend-about-audio-p{
+    border: 2px solid transparent;
+    width: 30px;
+    height: 30px;
+    margin-left: 2px;
+    border-radius: 50%;
+}
+.commend-about-audio-icon{
+    border:none;
+    width: 26px;
+    height: 26px;
+    mix-blend-mode: screen;
+    border-radius: 50%;
+}
+.commend-about-time-p{
+    width: 60px;
+    height: 25px;
+    background-color: transparent;
+    text-align: center;
+    margin-right: 40px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 17px;
+    margin-left: 5px;
+    color: rgb(211, 211, 211);
+    font-weight: 500;
+
+}
+.commend-about-stop-record{
+    border: none;
+    background-color: transparent;
+    width: 190px;
+    height: 30px;
+    text-align: start;
+    margin-right: 30px;
+    margin-bottom: 4px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-weight: 400px;
+    color: rgb(211, 211, 211);
+    animation-name: toright;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-duration:  2s;
+    opacity: .50;
+    
+}
+@keyframes toright{
+    10%{background-image: linear-gradient(to right, rgb(0, 0, 85)100%);}
+    20%{background-image: linear-gradient(to right, rgb(0, 0, 85)90%,rgb(2, 2, 148) 10%);}
+    30%{background-image: linear-gradient(to right, rgb(0, 0, 85)80%,rgb(2, 2, 148) 20%);}
+    40%{background-image: linear-gradient(to right, rgb(0, 0, 85)70%,rgb(2, 2, 148) 30%);}
+    50%{background-image: linear-gradient(to right, rgb(0, 0, 85)60%,rgb(2, 2, 148) 40%);}
+    60%{background-image: linear-gradient(to right, rgb(0, 0, 85)50%,rgb(2, 2, 148) 50%);}
+    70%{background-image: linear-gradient(to right, rgb(0, 0, 85)40%,rgb(2, 2, 148) 60%);}
+    80%{background-image: linear-gradient(to right, rgb(0, 0, 85)30%,rgb(2, 2, 148) 70%);}
+    90%{background-image: linear-gradient(to right, rgb(0, 0, 85)20%,rgb(2, 2, 148) 80%);}
+    100%{background-image: linear-gradient(to right, rgb(0, 0, 85)10%,rgb(2, 2, 148) 90%);}
+}
+.commend-about-stop-record::first-letter{
+    font-size: 19px;
+}
+.commend-about-stop-record-icon-div{
+    background-color: transparent;
+    width: 200px;
+    height: 32px;
+    display: flex;
+    flex-direction: row;
+}
+.big-voice-icon-button{
+    background-color: rgb(0, 0, 65);
+    border:none;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    right: -10px;
+    bottom: -10px;
+    z-index: 3;
+    border-radius: 50%;
+}
+.big-voice-icon-button::after{
+    content: "";
+    width: 5px;
+    height: 5px;
+    left: 14px;
+    top: 8px;
+    position: absolute;
+    background-color: red;
+    border-radius: 50%;
+    animation-name: sign;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-duration:  2s;
+}
+@keyframes sign{
+    50%{background-color: black;}
+    100%{background-color: red;}
+}
+.big-voice-icon{
+    width: 40px;
+    height: 40px;
+    mix-blend-mode: screen;
+}
+.voice-lock-p{
+    margin: 0px;
+    padding: 0px;
+    width: 40px;
+    height: 40px;
+    animation-name: updown;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-duration:  1s;
+    margin-bottom: 4px;
+}
+.voice-lock-icon{
+    width: 20px;
+    height: 20px;
+    mix-blend-mode: screen;
+}
+.arrow-up-p{
+    margin: 0px;
+    padding: 0px;
+    width: 40px;
+    height: 40px;
+    animation-name: updown;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-duration:  1s;
+}
+.arrow-up-icon,.record-leftarrow-icon{
+    width: 20px;
+    height: 20px;
+    mix-blend-mode: screen;
+}
+.record-leftarrow-icon{
+    margin-top: 7px;
+}
+@keyframes updown{
+    50%{margin-top: -20px;}
+    100%{margin-top: -20px;}
+}
+.commend-text-div{
+    border: 1px solid rgb(214, 214, 214);
+    background-color: rgb(246, 246, 246);
+    max-width: 618px;
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-bottom:2px ;
+    padding-top: 2px;
+    margin-bottom: 25px;
+}
+.commend-text-replies-button{
+    background-color: transparent;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border:none;
+    margin-left: 4px;
+    color: rgb(97, 97, 97);
+    font-size: 15px;
+    width: 140px;
+    height: 25px;
+    margin-left: 10px;
+    position: absolute;
+    bottom: -25px;
+    left: 0px;
+}
+.commend-text-replies-arrow-down-icon{
+    padding-top: 6px;
+    width: 20px;
+    height:20px;
+
+}
+.commend-text-replies-div{
+    background-color: white;
+    border: 1px solid red;
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    bottom: -225px;
+    z-index: 3;
+    overflow-y: scroll;
+    display: none;
+}
+.commend-text-img-p{
+    border: 1px solid rgb(255, 3, 179);
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    position: relative;
+}
+.commend-text-img{
+    border: 1px solid rgb(3, 217, 255);
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+}
+.commend-text-p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(231, 231, 231);
+    border: 1px solid rgb(226, 226, 226);
+    width: 90%;
+    border-radius: 4px;
+    margin-left: 4px;
+    margin-right: 4px;
+    position: relative;
+    text-align: start;
+    font-weight: 400;
+    font-size: 15px;
+    word-wrap: break-word;
+    padding-left:2px;
+    padding-right:2px ;
+}
+.commend-text-p::after{
+    font-family:--tiktok;
+    content: '3d';
+    margin-left: 2px;
+    font-weight: bold;
+    color: rgb(95, 95, 95);
+}
+.commend-text-like-icon-p{
+    border: 3px solid transparent;
+    outline: none;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    margin-right: 4px;
+}
+.commend-text-like-icon{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.commend-text-like-icon-p:hover{
+    border: 2px solid transparent;
+}
+.commend-name-p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: none;
+    margin-left: 4px;
+    color: rgb(97, 97, 97);
+    font-size: 15px;
+}
+.commend-name-textp-div{
+    width: 90%;
+}
+.commend-likeicon-likecount-div{
+    width: 45px;
+    height: 40px;
+    position: relative;
+    text-align: center;
+}
+.commend-likecount-p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    width: 38px;
+    height: 18px;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    color: rgb(121, 120, 120);
+    font-weight: 500;
+}
+
+
+
+
+/****************************************************************************************************************************************************************************************************************************************************************************/
+.commend-replies-text-div{
+    border: 1px solid rgb(214, 214, 214);
+    background-color: rgb(246, 246, 246);
+    max-width: 618px;
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-bottom:2px ;
+    padding-top: 2px;
+}
+.commend-replies-text-img-p{
+    border: 1px solid rgb(255, 3, 179);
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    position: relative;
+}
+.commend-replies-text-img{
+    border: 1px solid rgb(3, 217, 255);
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+}
+.commend-replies-text-p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(231, 231, 231);
+    border: 1px solid rgb(226, 226, 226);
+    width: 90%;
+    border-radius: 4px;
+    margin-left: 4px;
+    margin-right: 4px;
+    position: relative;
+    text-align: start;
+    font-weight: 400;
+    font-size: 15px;
+    word-wrap: break-word;
+    padding-left:2px;
+    padding-right:2px ;
+}
+.commend-replies-text-p::after{
+    font-family:--tiktok;
+    content: '3d';
+    margin-left: 2px;
+    font-weight: bold;
+    color: rgb(95, 95, 95);
+}
+.commend-replies-text-like-icon-p{
+    border: 3px solid transparent;
+    outline: none;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    margin-right: 4px;
+}
+.commend-replies-text-like-icon{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.commend-replies-text-like-icon-p:hover{
+    border: 2px solid transparent;
+}
+.commend-replies-name-p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: none;
+    margin-left: 4px;
+    color: rgb(97, 97, 97);
+    font-size: 15px;
+}
+.commend-replies-name-textp-div{
+    width: 90%;
+}
+.commend-replies-likeicon-likecount-div{
+    width: 45px;
+    height: 40px;
+    position: relative;
+    text-align: center;
+}
+.commend-replies-likecount-p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    width: 38px;
+    height: 18px;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    color: rgb(121, 120, 120);
+    font-weight: 500;
+}
+
+
+/****************************************************/
+
+.voice-container{
+    background-color: rgb(19, 0, 83);
+    border: none;
+    width: 250px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius:10px;
+    margin-top: 4px;
+    margin-left: 5px;
+    position: relative;
+    
+}
+.voice-text-replies-button{
+    background-color: transparent;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border:none;
+    margin-left: 4px;
+    color: rgb(97, 97, 97);
+    font-size: 15px;
+    width: 140px;
+    height: 25px;
+    margin-left: 10px;
+    position: absolute;
+    bottom: -25px;
+    left: 0px;
+}
+.voice-text-replies-arrow-down-icon{
+    padding-top: 6px;
+    width: 20px;
+    height:20px;
+
+}
+.voice-text-replies-div{
+    background-color: white;
+    border: 1px solid red;
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    bottom: -225px;
+    z-index: 3;
+    overflow-y: scroll;
+    display: none;
+}
+.voice-red-light{
+    width: 5px;
+    height:5px;
+    background-color: red;
+    position: absolute;
+    bottom: 9px;
+    left: 50px;
+    border-radius: 50%;
+    animation-name: sign;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-duration:  2s;
+    display: none;
+}
+.voice-container-p{
+    border: 1px solid  rgb(255, 0, 0);
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-left: 4px;
+}
+.voice-container-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.voice-playandrange-counttime-div{
+    background-color:transparent;
+    height: 46px;
+    width: 200px;
+}
+.voice-container-play-range-div{
+    height: 29px;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.voice-container-play{
+    background-color:transparent;
+    border:none;
+    outline: none;
+    height: 14px;
+    width: 14px;
+    cursor: pointer;
+}
+.voice-play-icon{
+    height:100%;
+    width: 100%;
+}
+.voice-container-range{
+    appearance: none;
+    -webkit-appearance: none;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    margin-right: 4px;
+    outline: none;
+    border: none;
+    position: absolute;
+    z-index: 2;
+    background-color: transparent;
+}
+.voice-range-rangevalue{
+    border: 2px solid rgb(0, 0, 0);
+    width: 160px;
+    height: 20px;
+    position: relative;
+    border-radius: 5px;
+    margin-right: 4px;
+}
+.voice-range-value-p{
+    background-color: rgb(4, 1, 46);
+    border-radius: 5px 0px 0px 5px;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    
+}
+.voice-container-range::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    appearance: none;
+    background-color:rgb(20, 3, 255);
+    border: 4px solid rgb(0, 0, 175);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.voice-container-count-time-div{
+    height: 15px;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.voice-container-count,.voice-container-time{
+    border:none;
+    background-color:transparent;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 60px;
+    color: rgb(148, 148, 148);
+    font-weight: 600;
+    text-align: center;
+    height: 15px; 
+    font-size: 10px;
+    
+}
+
+
+
+
+/****voice-replies-container****/
+.voice-replies-container{
+    background-color: rgb(19, 0, 83);
+    border: none;
+    width: 250px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius:10px;
+    margin-top: 4px;
+    margin-left: 5px;
+    position: relative;
+    
+}
+.voice-replies-red-light{
+    width: 5px;
+    height:5px;
+    background-color: red;
+    position: absolute;
+    bottom: 9px;
+    left: 50px;
+    border-radius: 50%;
+    animation-name: sign;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-duration:  2s;
+    display: none;
+}
+.voice-replies-container-p{
+    border: 1px solid  rgb(255, 0, 0);
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-left: 4px;
+}
+.voice-replies-container-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.voice-replies-playandrange-counttime-div{
+    background-color:transparent;
+    height: 46px;
+    width: 200px;
+}
+.voice-replies-container-play-range-div{
+    height: 29px;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.voice-replies-container-play{
+    background-color:transparent;
+    border:none;
+    outline: none;
+    height: 14px;
+    width: 14px;
+    cursor: pointer;
+}
+.voice-replies-play-icon{
+    height:100%;
+    width: 100%;
+}
+.voice-replies-container-range{
+    appearance: none;
+    -webkit-appearance: none;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    margin-right: 4px;
+    outline: none;
+    border: none;
+    position: absolute;
+    z-index: 2;
+    background-color: transparent;
+}
+.voice-replies-range-rangevalue{
+    border: 2px solid rgb(0, 0, 0);
+    width: 160px;
+    height: 20px;
+    position: relative;
+    border-radius: 5px;
+    margin-right: 4px;
+}
+.voice-replies-range-value-p{
+    background-color: rgb(4, 1, 46);
+    border-radius: 5px 0px 0px 5px;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    
+}
+.voice-replies-container-range::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    appearance: none;
+    background-color:rgb(20, 3, 255);
+    border: 4px solid rgb(0, 0, 175);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.voice-replies-container-count-time-div{
+    height: 15px;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.voice-replies-container-count,.voice-replies-container-time{
+    border:none;
+    background-color:transparent;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 60px;
+    color: rgb(148, 148, 148);
+    font-weight: 600;
+    text-align: center;
+    height: 15px; 
+    font-size: 10px;
+    
+}

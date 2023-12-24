@@ -1,0 +1,365 @@
+.status-add-friend-div-i{
+    border:none;
+    max-width: 620px;
+    height: 127px;
+    overflow: hidden;
+    align-items: center;
+    position: relative;
+}
+.status-add-friend-div-ii{
+    border: 1px solid black;
+    width: 100%;
+    height: 125px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    overflow-x: scroll;
+}
+.status-add-friend-container{
+    background-color:rgb(34, 36, 34);
+    border: none;
+    width: 100px;
+    height: 115px;
+    margin-left: 4px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0px 0px 4px black;
+    padding-top: 2px;
+}
+.status-add-friend-img-button{
+    border:none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 2px;
+
+}
+.status-add-friend-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.status-add-friend-name{
+    background-color:rgb(34, 36, 34);
+    border:none;
+    width: 80px;
+    height: 20px;
+    margin-top: -2px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: capitalize;
+    font-size: 13px;
+    color: rgb(226, 226, 226);
+    font-weight: 600;
+    margin-left:4px;
+    margin-right: 4px;
+    margin-top: 8px;
+    margin-bottom: 2px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    border-radius: 4px;
+    font-weight:400;
+}
+.status-follow-button{
+    background-color:rgba(9, 9, 82, 0.924);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: 1px solid rgb(9, 9, 82);
+    margin-top: 8px;
+    width: 80px;
+    color:rgb(202, 202, 202);
+    height: 25px;
+    border-radius: 8px;
+    font-family: 15px;
+    font-weight:500;
+    text-transform: capitalize;
+}
+
+.add-status-p{
+    background-color:transparent;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 2px;
+    margin-left: 4px;
+    width: 50px;
+    color: rgb(75, 75, 75);
+    height: 23px;
+    font-family: 15px;
+    font-weight: 800;
+    text-transform: capitalize;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.add-status-div{
+    width: 300px;
+    height: 43px;
+    display: flex;
+    position: relative;
+    margin-bottom: 10px;
+}
+.status-user-button{
+    border: 2px solid rgb(33, 4, 114);
+    width: 40px;
+    height: 40px;
+    margin-left: 2px;
+    margin-top: 1px;
+    border-radius: 50%;
+    position: relative;
+}
+.status-file{
+    display: none;
+}
+.status-label-file{
+    border: 1px solid rgb(33, 4, 114);
+    background-color: rgb(33, 4, 114);
+    width: 15px;
+    min-height: 10px;
+    position: absolute;
+    border-radius: 50%;
+    bottom: 0px;
+    right: -4px;
+    color: white;
+}
+
+.status-user-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.add-status-p{
+    background-color:transparent;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 2px;
+    margin-left: 4px;
+    width: 150px;
+    color: rgb(51, 51, 51);
+    height: 20px;
+    font-family: 15px;
+    font-weight:900;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+.status-name{
+    background-color:transparent;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 2px;
+    margin-left: 4px;
+    width: 150px;
+    color: rgb(75, 75, 75);
+    height: 20px;
+    font-family: 15px;
+    font-weight: 600;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+.add-status-poster{
+    background-color:transparent;
+    border:none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 2px;
+    margin-left: 4px;
+    width: 150px;
+    color: rgb(75, 75, 75);
+    height: 20px; 
+    font-weight:bold;
+    font-size: 12px;
+    position: absolute;
+    bottom: 0px;
+    left: 43px;
+}
+.add-status-poster::first-letter{
+    text-transform: uppercase;
+}
+.all-status-p{
+    background-color:transparent;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 2px;
+    margin-left: 4px;
+    width: 90px;
+    color: rgb(75, 75, 75);
+    height: 20px;
+    font-family: 15px;
+    font-weight: bold;
+    font-size: 12px;
+}
+.all-status-p::first-letter{
+    text-transform: uppercase;
+}
+.all-status-div{
+    border: 1px solid  rgb(230, 230, 230);
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    position: relative;
+    padding-bottom: 30px;
+}
+.status-recent-container{
+    border-bottom:1px solid rgb(230, 230, 230) ;
+    width: 300px;
+    height: 45px;
+    display: flex;
+    position: relative;
+   
+}
+.status-recent-img-button{
+    border: 1px dashed rgb(0, 0, 0);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 2px;
+    margin-left: 2px;
+}
+.status-recent-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.status-recent-name{
+    background-color:transparent;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 4px;
+    margin-left: 4px;
+    width: 150px;
+    color:rgb(75, 75, 75);
+    height: 20px;
+    font-family: 15px;
+    font-weight: 600;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+.status-recent-time{
+    background-color:transparent;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 2px;
+    margin-left: 4px;
+    width: 50px;
+    color: rgb(51, 51, 51);
+    height: 20px; 
+    font-size: 12px;
+    position: absolute;
+    bottom: 0px;
+    left: 43px;
+    font-weight:500;
+    text-transform: uppercase;
+
+}
+.all-seen-status-p{
+    background-color:transparent;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 2px;
+    margin-left: 4px;
+    width: 90px;
+    color: rgb(75, 75, 75);
+    height: 20px;
+    font-family: 15px;
+    font-weight: bold;
+    font-size: 12px;
+}
+.all-seen-status-p::first-letter{
+    text-transform: uppercase;
+}
+/*///////////////////////*/
+.all-seen-status-div{
+    border: 1px solid  rgb(230, 230, 230);
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    position: relative;
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+}
+.viewed-updates-container{
+    border-bottom:1px solid rgb(230, 230, 230) ;
+    width: 300px;
+    height: 45px;
+    display: flex;
+    position: relative;
+}
+.viewed-updates-img-button{
+    border: 1px dashed rgb(4, 37, 224);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 2px;
+    margin-left: 2px;
+}
+.viewed-updates-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.viewed-updates-name{
+    background-color:transparent;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 4px;
+    margin-left: 4px;
+    width: 150px;
+    color:rgb(75, 75, 75);
+    height: 20px;
+    font-family: 15px;
+    font-weight: 600;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+.viewed-updates-time{
+    background-color:transparent;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 2px;
+    margin-left: 4px;
+    width: 50px;
+    color: rgb(51, 51, 51);
+    height: 20px; 
+    font-size: 12px;
+    position: absolute;
+    bottom: 0px;
+    left: 43px;
+    font-weight:500;
+    text-transform: uppercase;
+}
+
+.status-pen-camera-div,.left-status-pen-camera-div{
+    border: none;
+    background-color:transparent;
+    width: 60px;
+    height: 100px;
+    border-radius: 12px;
+    position: fixed;
+    bottom: 10px;
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.status-pen-camera-div{
+    display: none;
+}
+.status-pen-button,.left-status-pen-button{
+    background-color: rgb(65, 65, 66);
+    border: none;
+    width: 35px;
+    height: 35px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 2px black;
+}
+.status-pen-icon,.left-status-pen-icon{
+    width: 100%;
+    height: 80%;
+    border-radius: 12px;
+}
+.status-camera-button,.left-status-camera-button{
+    background-color: rgb(1, 1, 100);
+    border: none;
+    width: 45px;
+    height: 45px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 2px black;
+}
+.status-camera-icon,.left-status-camera-icon{
+    width: 25px;
+    height: 25px;
+    border-radius: 12px;
+}

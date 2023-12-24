@@ -1,0 +1,2375 @@
+/***system & mobile-createAccount-div***/
+.system-modile-createAccount-loginPage-div{
+    border: 2px solid rgb(255, 0, 170);
+    background-color: rgb(1, 1, 54);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 9;
+    top: 0px;
+    left: 0px;
+    box-shadow: 0px 0px 2px black;
+    display:none;
+    user-select: none;
+}
+/***system-createAccount-container***/
+.system-createAccount-container{
+    border:none;
+    background-color: rgb(231, 231, 231);
+    width: 80%;
+    min-width: 600px;
+    max-width: 800px;
+    height: 592px;
+    position: relative;
+    margin: auto;
+    margin-top: 40px;
+    box-shadow: 0px 0px 2px black;
+    border-radius: 10px 10px 10px 10px;
+    display: block;
+}
+.system-next-button,.system-signUp-button{
+    border:none;
+    background-color: rgb(0, 0, 168);
+    font-size: 18px;
+    color: white;
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    bottom: 12px;
+    right: 12px;
+    border-radius: 8px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: capitalize;
+    z-index: 2;
+}
+.system-signUp-button{
+    z-index: 1;
+}
+.system-next-button:hover,.system-signUp-button:hover{
+    background-color: rgb(1, 1, 195);
+}
+.system-header-createAccount{
+    border:none;
+    background-color: transparent;
+    width: 450px;
+    height: 80px;
+    margin: auto;
+    margin-top: 10px;
+}
+.system-personal-impormation-createAccount{
+    border:none;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    max-width: 300px;
+    height: 30px;
+    margin: auto;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: lowercase;
+    color: rgb(0, 0, 155);
+    user-select: none;
+    margin-bottom: 4px;
+}
+.system-notice-createAccount{
+    border:none;
+    max-width: 400px;
+    height: 40px;
+    margin: auto;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 13px;
+    text-align: center;
+    user-select: none;
+    font-style: oblique;
+    font-weight: 500;
+}
+.system-notice-createAccount-span{
+    color: blue;
+    text-transform: capitalize;
+}
+
+.system-notice-createAccount-span:hover{
+    color: rgb(250, 61, 27);
+}
+.system-notice-createAccount-span:active{
+    color:rgb(126, 0, 0);
+}
+.system-leftRight-div-createAccount{
+    border:none;
+    border-bottom: 1px solid rgb(230, 230, 230);
+    background-color: transparent;
+    width: 100%;
+    height: 420px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+    
+}
+.system-left-container-createAccount{
+    border:none;
+    width: 50%;
+    height: 420px;
+    border-radius: 2px;
+    position: relative;
+    overflow: hidden;
+    
+}
+.system-right-container-createAccount{
+    border:none;
+    width: 45%;
+    height: 418px;
+    border-radius: 2px;
+    position: relative;
+}
+/*system-left-container-createAccount*/
+.system-createAccount-firstname-lastname-div,.system-createAccount-dateofbirth-country-div{
+    border:none;
+    max-width: 400px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.system-createAccount-firstname,.system-createAccount-lastname,.system-createAccount-youremail,.system-createAccount-re-enter-email,.system-createAccount-dateofbirth,.system-createAccount-country,.system-createAccount-createpassword,.system-createAccount-confirmpassword,.system-createAccount-phonenumber{
+    border:none;
+    max-width: 200px;
+    height: 50px;
+    background-color:transparent;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+    font-size: 16px;
+    text-transform: capitalize;
+    transition: all 0.05s;
+    position: relative;
+    padding-left: 4px;
+    margin: auto;
+    user-select: none;
+    font-weight:normal;
+}
+.system-createAccount-youremail,.system-createAccount-re-enter-email,.system-createAccount-createpassword,.system-createAccount-confirmpassword{
+    max-width: 400px;
+    
+}
+.system-createAccount-phonenumber{
+    margin: 0px;
+}
+.system-country-code{
+    border:none ;
+    border-bottom:1px solid rgb(0, 0, 224);
+    width: 50px;
+    height: 20px;
+    color: black;
+    text-align: center;
+    position: absolute;
+    bottom: 9px;
+    left: 0px;
+    font-weight: 600;
+    color: rgb(0, 0, 224);
+
+}
+.system-createAccount-gender{
+    border:none;
+    background-color: rgb(223, 223, 223);
+    width: 160px;
+    height: 22px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 4px;
+}
+.system-createAccount-firstname:hover,.system-createAccount-lastname:hover,.system-createAccount-youremail:hover,.system-createAccount-re-enter-email:hover,.system-createAccount-dateofbirth:hover,.system-createAccount-country:hover,.system-createAccount-createpassword:hover,.system-createAccount-confirmpassword:hover,
+.system-createAccount-phonenumber:hover{
+    color: rgb(0, 0, 224);
+}
+.system-createAccount-firstname-input,.system-createAccount-lastname-input,.system-createAccount-youremail-input,.system-createAccount-re-enter-email-input,.system-createAccount-dateofbirth-input,.system-createAccount-country-input,.system-createAccount-createpassword-input,.system-createAccount-confirmpassword-input,.system-createAccount-phonenumber-input{
+    border: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-bottom: 1px solid  rgb(175, 175, 175);
+    background-color: transparent;
+    outline: none;
+    width:100%;
+    height: 25px;
+    font-size: 13px;
+    font-size: 16px;
+    font-weight: normal;
+    padding-left: 10px;
+    transition: all 0.005s;
+    color: rgba(0, 0, 0, 0.801);
+    text-transform: capitalize;
+}
+.system-createAccount-dateofbirth-input::placeholder,.system-createAccount-phonenumber-input::placeholder{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    text-transform: lowercase;
+    font-weight:normal;
+    
+}
+.system-createAccount-dateofbirth-input::placeholder{
+    color: rgb(176, 176, 176);
+    font-size: 13px;
+}
+
+.system-createAccount-phonenumber-input{
+    margin-left: 50px;
+    padding-left: 6px;
+}
+.system-createAccount-firstname-input:focus,.system-createAccount-lastname-input:focus,.system-createAccount-youremail-input:focus,.system-createAccount-re-enter-email-input:focus,.system-createAccount-dateofbirth-input:focus,.system-createAccount-country-input:focus,.system-createAccount-createpassword-input:focus,.system-createAccount-confirmpassword-input:focus,.system-createAccount-phonenumber-input:focus{
+    border-bottom: 1px dashed  rgb(0, 0, 224);
+}
+.system-createAccount-firstname-input:hover,.system-createAccount-lastname-input:hover,.system-createAccount-youremail-input:hover,.system-createAccount-re-enter-email-input:hover,.system-createAccount-dateofbirth-input:hover,.system-createAccount-country-input:hover,.system-createAccount-createpassword-input:hover,.system-createAccount-confirmpassword-input:hover,.system-createAccount-phonenumber-input:hover{
+    border-bottom: 1px solid  rgb(0, 0, 224);
+}
+/***>>>>>****/
+.system-pick-country-div{
+    background-color: rgb(240, 240, 240);
+    border:none;
+    width: 49%;
+    max-height: 43%;
+    position: absolute;
+    top: 197px;
+    right: 0px;
+    z-index: 2;
+    overflow-y: scroll;
+    box-shadow: 0px 0px 2px black;
+    border-radius: 2px;
+    display: none;
+}
+.system-pick-country-name{
+    background-color: rgb(233, 233, 233);
+    border:none;
+    border-bottom:1px solid rgb(206, 206, 206) ;
+    width: 100%;
+    height: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:rgb(42, 42, 42);
+    font-weight:normal;
+    font-weight:500;
+    font-size: 13px;
+    text-transform: capitalize;
+    transition: all 0.05s;
+    position: relative;
+    user-select: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+.system-pick-country-name:hover{
+    background-color: rgb(200, 200, 200);
+    color: rgb(0, 0, 0);
+}
+.system-pick-country-code{
+    color: blue;
+}
+/*<<<<<<*/
+
+.system-createAccount-password-seen-button{
+    border:none;
+    outline: none;
+    background-color:  rgb(231, 231, 231);
+    width: 19px;
+    height: 15px;
+    position: absolute;
+    bottom: 15px;
+    right: 8px;
+    border-radius: 12px;
+}
+.system-createAccount-password-seen-button:hover{
+    background-color: rgb(206, 206, 206);
+}
+.system-createAccount-seen-icon{
+    width:100%;
+    height:100%;
+    
+}
+
+#system-createAccount-male-input,#system-createAccount-femal-input{
+    display: none;
+}
+.system-gender-label{
+    border:none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: transparent;
+    width: 80px;
+    height: 22px;
+    position: relative;
+    text-align: center;
+    color: rgb(0, 0, 78);
+    font-size: 14px;
+    font-weight:600;
+    padding-left: 10px;
+    text-transform: capitalize;
+    border-radius: 4px;
+    font-style: italic;
+
+}
+.system-gender-label::before{
+    background-color: transparent;
+    position: absolute;
+    outline: 1px solid rgb(0, 0, 78);
+    border: 3px solid transparent;
+    content: "";
+    width: 2px;
+    height: 2px;
+    border-radius: 50%;
+    top:7px;
+    left: 6px;   
+}
+#system-createAccount-male-input:checked+.system-gender-label,#system-createAccount-femal-input:checked+.system-gender-label{
+    background-color: rgb(0, 0, 158);
+    color:rgb(223, 223, 223);
+}
+#system-createAccount-male-input:checked+.system-gender-label::before,#system-createAccount-femal-input:checked+.system-gender-label::before{
+    background-color: rgb(0, 0, 78);
+    outline: 1px solid rgb(88, 88, 88) ;
+    border: 2px solid rgb(0, 0, 78);
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    top: 6px;
+    left: 4px;
+}
+/*system-right-container-createAccount*/
+.system-otp-div{
+    border:none;
+    background-color: rgb(219, 219, 219);
+    position: relative;
+    border-radius: 8px;
+    width: 100%;
+    height: 220px;
+    box-shadow: 0px 0px 1px black;
+    margin-bottom: 8px;
+}
+.system-otp-blur-true-p{
+    border:none;
+    background-color: rgb(219, 219, 219);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 8px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: capitalize;
+    color: rgb(0, 0, 77);
+    font-weight: 600;
+    text-align: center;
+    padding-top: 90px;
+    font-style: italic;
+}
+.system-otp-header-createAccount{
+    border:none;
+    background-color: transparent;
+    width: 100%;
+    max-width: 270px;
+    height: 80px;
+    margin: auto;
+}
+
+.system-appname-Verifyingt-number{
+    border:none;
+    border-bottom: 1px solid rgb(206, 206, 206);
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    max-width: 200px;
+    height: 30px;
+    margin: auto;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: lowercase;
+    color: rgb(0, 0, 182);
+    user-select: none;
+    margin-bottom: 5px;
+    font-style: italic;
+}
+.system-appname-Verifyingt-number::first-letter{
+    text-transform:capitalize;
+}
+.system-otp-notice-createAccount{
+    border:none;
+    max-width: 280px;
+    height: 45px;
+    margin: auto;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 11px;
+    text-align: center;
+    user-select: none;
+    font-weight: 500;
+    font-style: oblique;
+    
+}
+.system-otp-notice-createAccount::first-letter{
+    text-transform: uppercase;
+}
+.system-sms{
+    text-transform: uppercase;
+}
+.system-number-span{
+    font-weight: 700;
+    color: rgb(47, 47, 47);
+}
+.system-wrongnumber-span{
+    color: rgb(2, 2, 112);
+    text-transform: capitalize;
+}
+
+.system-wrongnumber-span:hover{
+    color: red;
+}
+.system-otp-inpu-div{
+    border:none;
+    border-bottom: 1px solid rgb(0, 0, 179);
+    width: 200px;
+    height: 50px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    transition: all 0.005s;
+    
+} 
+.system-otp-inpu-div:hover{
+    border-bottom: 2px solid rgb(0, 0, 179);
+}
+.system-i-otp{
+    border:none;
+    outline: none;
+    background-color:transparent;
+    border-bottom: 2px solid  rgb(144, 144, 144);
+    width: 25px;
+    height: 25px;
+    color: rgb(0, 0, 95) ;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.system-i-otp:focus{
+    border-bottom: 2px solid rgb(0, 0, 95);
+}
+
+.system-otp-bottom-div{
+    border:none;
+    max-width: 280px;
+    height: 80px;
+    margin: auto;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 11px;
+    text-align: center;
+    user-select: none;
+    margin-top: 10px;
+}
+.system-enter-code{
+    border:none;
+    width: 200px;
+    height: 20px;
+    margin: auto;
+    font-weight: 500;
+}
+.system-enter-code::first-letter{
+    text-transform: uppercase;
+}
+.system-otp-newcode{
+    border:none;
+    width: 200px;
+    height: 20px;
+    margin: auto;
+    font-weight: 600;
+    color: blue;
+    cursor: pointer;
+}
+.system-otp-newcode:hover{
+    font-weight: 700;
+}
+.system-otp-newcode::first-letter{
+    text-transform: uppercase;
+}
+.system-otp-mayrequese{
+    border: none;
+    max-width: 220px;
+    height: 20px;
+    margin: auto;
+    font-weight: 500;
+    
+}
+.system-otp-mayrequese::first-letter{
+    text-transform: uppercase;
+}
+.system-otp-timecount{
+    color: rgb(1, 1, 90);
+    font-weight: 700;
+    font-size: 12px; 
+}
+.system-otp-incorrect-notice{
+    border:none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    width: 200px;
+    height: 18px;
+    margin: auto;
+    text-align: center;
+    color: rgb(177, 0, 0);
+}
+
+
+
+
+
+
+
+/*system-createAccount lodding page*/
+.system-createAccount-loading-page{
+    border:none;
+    background-color: rgb(0, 0, 0);
+    background-color: rgb(219, 219, 219);
+    width: 100%;
+    height:100%;
+    position:absolute;
+    border-radius:8px;
+    text-align: center;
+    top: 0px;
+    display:none;
+    
+}
+.system-createAccount-loading-div{
+    border:none;
+    background-color:  rgba(233, 233, 233, 0.829);
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    margin-top: 80px;
+    border-radius: 10px;
+
+}
+.system-createAccount-loading-p{
+    border:none;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 22px;
+    color: rgb(0, 0, 117);
+    width: 110px;
+    height: 40px;
+}
+.system-createAccount-loading-rotate{
+    border: 9px solid rgb(0, 0, 82);
+    border-left: none;
+    border-right: none;
+    border-bottom: 9px solid rgb(0, 0, 180);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    animation-name:loadingrotate;
+    animation-timing-function: ease-in-out;
+    animation-duration:0.6s;
+    animation-iteration-count:infinite ;
+}
+@keyframes loadingrotate{
+    100%{transform: rotate(360deg);}
+}
+
+/*system-chooseimg-createAccount*/
+.system-chooseimg-createAccount{
+    border:none;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    max-width: 250px;
+    height: 30px;
+    margin: auto;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: lowercase;
+    color: rgb(0, 0, 182);
+    user-select: none;
+    margin-bottom: 5px;
+    font-style: italic;
+}
+
+.system-background-img-div{
+    border: 1px solid rgb(199, 199, 199);
+    max-width: 250px;
+    height: 130px;
+    margin: auto;
+    position: relative;
+    border-radius: 4px;
+}
+.system-background-img-icon{
+    width:100%;
+    height:100%;
+    border-radius: 4px;
+}
+.system-background-icon-button{
+    background-color: rgb(82, 82, 82);
+    border: 1px solid rgb(199, 199, 199);
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    bottom: 4px;
+    right: 4px;
+    z-index: 2;
+    border-radius: 40%;
+    
+    
+}
+.system-background-img-camera-icon{
+    width: 20px;;
+    height: 18px;
+    border-radius: 50%;
+    
+}
+.system-background-icon-file{
+    background-color: blue;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 3;
+    opacity: 0;
+    
+}
+.system-img-icon-div{
+    border: 1px solid rgb(199, 199, 199);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -30px;
+    left: 8px;
+}
+.system-img-icon{
+    width:100%;
+    height:100%;
+    border-radius: 50%;
+}
+.system-img-camera-icon-button{
+    background-color:  rgb(82, 82, 82);
+    border: 1px solid rgb(199, 199, 199);
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: -2px;
+    right: 0px;
+    z-index: 2;
+    border-radius: 40%;
+}
+.system-img-camera-icon{
+    width:90%;
+    height:90%;
+    position: absolute;
+    bottom: 2px;
+    right: 1px;
+    left: 1px;
+    border-radius: 50%;
+}
+.system-img-icon-file{
+    background-color: blue;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 3;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0;
+}
+
+
+/*system-createAccount singUp lodding page*/
+.system-createAccount-singup-loading-page{
+    border:none;
+    background-color: rgba(0, 0, 0, 0.733);
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    border-radius:8px;
+    text-align: center;
+    top: 0px;
+    display:none;
+    z-index: 2;
+}
+.system-createAccount-singup-please-wait-p{
+    border:none;
+    background-color:  rgba(0, 0, 117, 0.484);
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight:normal;
+    font-size: 13px;
+    color:rgb(213, 213, 213);
+    width: 150px;
+    height: 20px;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+.system-createAccount-singup-please-wait-p::first-letter{
+    text-transform: uppercase;
+}
+.system-createAccount-singup-loading-div{
+    border:none;
+    background-color:  rgba(233, 233, 233, 0.829);
+    width: 210px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    margin-top: 30%;
+    border-radius: 10px;
+
+}
+.system-createAccount-singup-loading-p{
+    border:none;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 22px;
+    color: rgb(0, 0, 117);
+    width: 130px;
+    height: 40px;
+}
+.system-createAccount-singup-loading-rotate{
+    border: 9px solid rgb(0, 0, 82);
+    border-left: none;
+    border-right: none;
+    border-bottom: 9px solid rgb(0, 0, 180);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    animation-name:loadingrotate;
+    animation-timing-function: ease-in-out;
+    animation-duration:0.6s;
+    animation-iteration-count:infinite ;
+}
+@keyframes loadingrotate{
+    100%{transform: rotate(360deg);}
+}
+
+
+/***mobile-createAccount-container***/
+.mobile-createAccount-container{
+    border:none;
+    background-color: rgb(231, 231, 231);
+    height: 330px;
+    position: fixed;
+    z-index: 9;
+    top: 80px;
+    bottom: 20px;
+    box-shadow: 0px 0px 2px black;
+    border-radius:8px;
+    overflow: hidden;
+    
+}
+.i-mobile-createAccount,.ii-mobile-createAccount,.iii-mobile-createAccount,.iv-mobile-createAccount{
+    border: 1px solid rgb(255, 5, 5);
+    width: 100%;
+    height: 330px;
+    border-radius:8px;
+    position: relative;
+}
+.ii-mobile-createAccount{
+    border: 1px solid rgb(5, 255, 38);
+}
+.iii-mobile-createAccount{
+    border: 1px solid rgb(5, 205, 255);
+}
+.iv-mobile-createAccount{
+    border: 1px solid rgb(230, 255, 5);
+}
+/***back-button***/
+.ii-back-button,.iii-back-button,.iv-back-button{
+    background-color: rgb(0, 0, 197);
+    border: 1px solid black;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    border-radius: 4px;
+    user-select: none;
+}
+.ii-back-button-icon,.iii-back-button-icon,.iv-back-button-icon{
+    width: 18px;
+    height: 20px;
+}
+.ii-back-button:hover,.iii-back-button:hover,.iv-back-button:hover{
+    background-color: rgb(0, 0, 158);
+}
+/***next-button***/
+.i-next-button,.ii-next-button,.iii-next-button,.mobile-signUp-button{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border:none;
+    background-color: rgb(0, 0, 158);
+    width: 50px;
+    height: 25px;
+    position: absolute;
+    bottom: 15px;
+    right: 10px;
+    border-radius: 4px;
+    color:rgba(255, 255, 255, 0.822);
+    user-select: none;
+    padding-bottom: 2px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.mobile-signUp-button{
+    width: 60px;
+    text-transform: capitalize;
+    color: rgba(255, 255, 255, 0.808);
+    font-weight: 600;
+}
+.mobile-signUp-button:hover,.i-next-button:hover,.ii-next-button:hover,.iii-next-button:hover{
+    background-color: rgb(0, 0, 92);
+    color: rgb(216, 216, 216);
+}
+/*i-mobile-createAccount*/
+.mobile-header-createAccount{
+    border: none;
+    background-color: transparent;
+    width: 400px;
+    height: 100px;
+    margin: auto;
+    margin-top: 10px;
+}
+.mobile-body-createAccount{
+    border:none;
+    background-color: transparent;
+    max-width: 400px;
+    height: 200px;
+    margin: auto; 
+}
+.mobile-appname-createAccount{
+    border:none;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    max-width: 250px;
+    height: 30px;
+    margin: auto;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: lowercase;
+    color: rgb(1, 1, 126);
+    user-select: none;
+    margin-bottom: 5px;
+}
+.mobile-appname-createAccount::first-letter{
+    text-transform: uppercase;
+}
+.mobile-notice-createAccount{
+    border:none;
+    max-width: 320px;
+    height: 50px;
+    margin: auto;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;
+    text-align: center;
+    user-select: none;
+}
+.mobile-notice-createAccount-span{
+    color: blue;
+    text-transform: capitalize;
+}
+
+.mobile-notice-createAccount-span:hover{
+    color: rgb(250, 61, 27);
+}
+.mobile-notice-createAccount-span:active{
+    color:rgb(126, 0, 0);
+}
+.mobile-createAccount-firstname-lastname-div{
+    border:none;
+    max-width: 400px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+}
+.mobile-createAccount-firstname,.mobile-createAccount-lastname,.mobile-createAccount-youremail,.mobile-createAccount-re-enter-email{
+    border:none;
+    max-width: 200px;
+    height: 50px;
+    background-color:transparent;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:rgb(42, 42, 42);
+    font-size: 13px;
+    text-transform: capitalize;
+    transition: all 0.05s;
+    position: relative;
+    padding-left: 4px;
+    margin: auto;
+    user-select: none;
+    font-style: italic;
+    font-weight: 500;
+}
+.mobile-createAccount-youremail,.mobile-createAccount-re-enter-email{
+    max-width: 400px;
+    
+}
+.mobile-createAccount-gender{
+    border:none;
+    background-color: rgb(223, 223, 223);
+    width: 160px;
+    height: 22px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+.mobile-createAccount-firstname:hover,.mobile-createAccount-lastname:hover,.mobile-createAccount-youremail:hover,.mobile-createAccount-re-enter-email:hover{
+    color: rgb(0, 0, 224);
+}
+.mobile-createAccount-firstname-input,.mobile-createAccount-lastname-input,.mobile-createAccount-youremail-input,.mobile-createAccount-re-enter-email-input{
+    border: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.466);
+    background-color: transparent;
+    outline: none;
+    width:100%;
+    height: 25px;
+    font-size: 14px;
+    font-weight: normal;
+    padding-left: 10px;
+    transition: all 0.005s;
+    color: rgba(0, 0, 0, 0.801);
+    text-transform: capitalize;
+}
+.mobile-createAccount-firstname-input:focus,.mobile-createAccount-lastname-input:focus,.mobile-createAccount-youremail-input:focus,.mobile-createAccount-re-enter-email-input:focus{
+    border-bottom: 1px dashed  rgb(0, 0, 224);
+}
+.mobile-createAccount-firstname-input:hover,.mobile-createAccount-lastname-input:hover,.mobile-createAccount-youremail-input:hover,.mobile-createAccount-re-enter-email-input:hover{
+    border-bottom: 1px solid  rgb(0, 0, 224);
+}
+
+#mobile-createAccount-male-input,#mobile-createAccount-female-input{
+    display: none;
+}
+.mobile-gender-label{
+    border:none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: transparent;
+    width: 80px;
+    height: 22px;
+    position: relative;
+    text-align: center;
+    color: rgb(0, 0, 78);
+    font-size: 14px;
+    font-weight:600;
+    padding-left: 10px;
+    text-transform: capitalize;
+    border-radius: 4px;
+    font-style: italic;
+}
+.mobile-gender-label::before{
+    background-color: transparent;
+    position: absolute;
+    outline: 1px solid rgb(0, 0, 78);
+    border: 3px solid transparent;
+    content: "";
+    width: 2px;
+    height: 2px;
+    border-radius: 50%;
+    top:7px;
+    left: 6px;   
+}
+#mobile-createAccount-male-input:checked+.mobile-gender-label,#mobile-createAccount-female-input:checked+.mobile-gender-label{
+    background-color: rgb(0, 0, 158);
+    color:rgb(223, 223, 223);
+}
+#mobile-createAccount-male-input:checked+.mobile-gender-label::before,#mobile-createAccount-female-input:checked+.mobile-gender-label::before{
+    background-color: rgb(0, 0, 78);
+    outline: 1px solid rgb(88, 88, 88) ;
+    border: 2px solid rgb(0, 0, 78);
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    top: 6px;
+    left: 4px;
+}
+
+
+/*ii-mobile-createAccount*/
+.mobile-pick-country-div{
+    background-color: rgb(240, 240, 240);
+    border:none;
+    width: 49%;
+    max-height: 177px;
+    position: absolute;
+    top: 153px;
+    right: 0px;
+    z-index: 2;
+    overflow-y: scroll;
+    box-shadow: 0px 0px 2px black;
+    border-radius: 2px;
+    display: none;
+}
+.mobile-pick-country-name{
+    background-color: rgb(233, 233, 233);
+    border:none;
+    border-bottom:1px solid rgb(206, 206, 206) ;
+    width: 100%;
+    height: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:rgb(42, 42, 42);
+    font-weight:normal;
+    font-weight:500;
+    font-size: 13px;
+    text-transform: capitalize;
+    transition: all 0.05s;
+    position: relative;
+    user-select: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+.mobile-pick-country-name:hover{
+    background-color: rgb(200, 200, 200);
+    color: rgb(0, 0, 0);
+}
+.mobile-pick-country-code{
+    color: blue;
+}
+/**/
+.mobile-createAccount-dateofbirth-country-div{
+    border:none;
+    max-width: 400px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    margin: auto;
+}
+.mobile-createAccount-dateofbirth,.mobile-createAccount-country,.mobile-createAccount-createpassword,.mobile-createAccount-confirmpassword,.mobile-createAccount-phonenumber{
+    border:none;
+    max-width: 200px;
+    height: 50px;
+    background-color:transparent;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:rgb(42, 42, 42);
+    font-size: 13px;
+    text-transform: capitalize;
+    transition: all 0.05s;
+    position: relative;
+    padding-left: 4px;
+    margin: auto;
+    user-select: none;
+    font-style: italic;
+    font-weight: 500;
+}
+.mobile-createAccount-createpassword,.mobile-createAccount-confirmpassword{
+    max-width: 400px;
+    
+}
+.mobile-createAccount-phonenumber{
+    margin: 0px;
+}
+.mobile-country-code{
+    border:none ;
+    border-bottom:1px solid rgb(0, 0, 224);
+    width: 50px;
+    height: 20px;
+    color: black;
+    text-align: center;
+    position: absolute;
+    bottom: 9px;
+    left: 0px;
+    font-weight: 600;
+    color: rgb(0, 0, 224);
+}
+.mobile-createAccount-dateofbirth:hover,.mobile-createAccount-country:hover,.mobile-createAccount-createpassword:hover,.mobile-createAccount-confirmpassword:hover,
+.mobile-createAccount-phonenumber:hover{
+    color: rgb(0, 0, 224);
+}
+.mobile-createAccount-dateofbirth-input,.mobile-createAccount-country-input,.mobile-createAccount-createpassword-input,.mobile-createAccount-confirmpassword-input,.mobile-createAccount-phonenumber-input{
+    border: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.466);
+    background-color: transparent;
+    outline: none;
+    width:100%;
+    height: 25px;
+    font-size: 14px;
+    font-weight: normal;
+    padding-left: 10px;
+    transition: all 0.005s;
+    color: rgba(0, 0, 0, 0.801);
+    text-transform: capitalize;
+}
+.mobile-createAccount-dateofbirth-input::placeholder,.mobile-createAccount-phonenumber-input::placeholder{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    text-transform: lowercase;
+    font-weight:normal;
+    
+}
+.mobile-createAccount-dateofbirth-input::placeholder{
+    color: rgb(176, 176, 176);
+    font-size: 13px;
+}
+.mobile-createAccount-phonenumber-input{
+    margin-left: 50px;
+    padding-left: 6px;
+}
+.mobile-createAccount-dateofbirth-input:focus,.mobile-createAccount-country-input:focus,.mobile-createAccount-createpassword-input:focus,.mobile-createAccount-confirmpassword-input:focus,.mobile-createAccount-phonenumber-input:focus{
+    border-bottom: 1px dashed  rgb(0, 0, 224);
+}
+.mobile-createAccount-dateofbirth-input:hover,.mobile-createAccount-country-input:hover,.mobile-createAccount-createpassword-input:hover,.mobile-createAccount-confirmpassword-input:hover,.mobile-createAccount-phonenumber-input:hover{
+    border-bottom: 1px solid  rgb(0, 0, 224);
+}
+.mobile-createAccount-password-seen-button{
+    border:none;
+    outline: none;
+    background-color: rgb(231, 231, 231);
+    width: 19px;
+    height: 15px;
+    position: absolute;
+    bottom: 15px;
+    right: 8px;
+    border-radius: 12px;
+}
+.mobile-createAccount-password-seen-button:hover{
+    background-color: rgb(206, 206, 206);
+}
+.mobile-createAccount-seen-icon{
+    width:100%;
+    height:100%;
+    
+}
+/*mobile-createAccount-ii lodding page*/
+.mobile-createAccount-ii-loading-page{
+    border:none;
+    background-color: rgba(0, 0, 0, 0.733);
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    border-radius:8px;
+    text-align: center;
+    top: 0px;
+    display:none;
+    
+}
+.mobile-createAccount-ii-loading-div{
+    border:none;
+    background-color:  rgba(233, 233, 233, 0.829);
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    margin-top: 30%;
+    border-radius: 10px;
+
+}
+.mobile-createAccount-ii-loading-p{
+    border:none;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 22px;
+    color: rgb(0, 0, 117);
+    width: 110px;
+    height: 40px;
+}
+.mobile-createAccount-ii-loading-rotate{
+    border: 9px solid rgb(0, 0, 82);
+    border-left: none;
+    border-right: none;
+    border-bottom: 9px solid rgb(0, 0, 180);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    animation-name:loadingrotate;
+    animation-timing-function: ease-in-out;
+    animation-duration:0.6s;
+    animation-iteration-count:infinite ;
+}
+@keyframes loadingrotate{
+    100%{transform: rotate(360deg);}
+}
+
+/*iii-mobile-createAccount*/
+.mobile-otp-header-createAccount{
+    border: none;
+    background-color: transparent;
+    width: 400px;
+    height: 80px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.mobile-appname-Verifyingt-number{
+    border:none;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    max-width: 200px;
+    height: 30px;
+    margin: auto;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: lowercase;
+    color: rgb(1, 1, 126);
+    user-select: none;
+    margin-bottom: 5px;
+}
+.mobile-appname-Verifyingt-number::first-letter{
+    text-transform:capitalize;
+}
+.mobile-otp-notice-createAccount{
+    border:none;
+    max-width: 280px;
+    height: 45px;
+    margin: auto;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 13px;
+    text-align: center;
+    user-select: none;
+    font-style: italic;
+    font-weight: 500;
+    
+}
+.mobile-otp-notice-createAccount::first-letter{
+    text-transform: uppercase;
+}
+.mobile-sms{
+    text-transform: uppercase;
+}
+.mobile-number-span{
+    font-weight: bold;
+}
+.mobile-wrongnumber-span{
+    color: rgb(2, 2, 112);
+    text-transform: capitalize;
+}
+
+.mobile-wrongnumber-span:hover{
+    color: red;
+}
+.mobile-otp-inpu-div{
+    border:none;
+    border-bottom: 1px solid rgb(0, 0, 179);
+    width: 200px;
+    height: 50px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    transition: all 0.005s;
+    
+} 
+.mobile-otp-inpu-div:hover{
+    border-bottom: 2px solid rgb(0, 0, 179);
+}
+.mobile-i-otp{
+    border:none;
+    outline: none;
+    background-color:transparent;
+    border-bottom: 2px solid  rgb(144, 144, 144);
+    width: 25px;
+    height: 25px;
+    color: rgb(0, 0, 95) ;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.mobile-i-otp:focus{
+    border-bottom: 2px solid rgb(0, 0, 95);
+}
+
+.mobile-otp-bottom-div{
+    border:none;
+    max-width: 280px;
+    height: 80px;
+    margin: auto;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 13px;
+    text-align: center;
+    user-select: none;
+    margin-top: 10px;
+}
+.mobile-enter-code{
+    border:none;
+    width: 200px;
+    height: 20px;
+    margin: auto;
+    font-weight: 500;
+}
+.mobile-enter-code::first-letter{
+    text-transform: uppercase;
+}
+.mobile-otp-newcode{
+    border:none;
+    width: 200px;
+    height: 25px;
+    margin: auto;
+    font-weight: 600;
+    margin-top: 9px;
+    color: blue;
+    cursor: pointer;
+}
+.mobile-otp-newcode:hover{
+    font-weight: 700;
+}
+.mobile-otp-newcode::first-letter{
+    text-transform: uppercase;
+}
+.mobile-otp-mayrequese{
+    border:none;
+    max-width: 220px;
+    height: 20px;
+    margin: auto;
+    font-weight: 400;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.mobile-otp-mayrequese::first-letter{
+    text-transform: uppercase;
+}
+.mobile-otp-timecount{
+    color: rgb(1, 1, 90);
+    font-weight: 500;
+    font-size: 14px;
+    
+}
+.mobile-otp-incorrect-notice{
+    border:none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    width: 200px;
+    height: 40px;
+    margin: auto;
+    margin-top: 4px;
+    text-align: center;
+    color: rgb(177, 0, 0);
+}
+/*mobile-createAccount-iii lodding page*/
+.mobile-createAccount-iii-loading-page{
+    border:none;
+    background-color: rgba(0, 0, 0, 0.733);
+    width: 100%;
+    height:100%;
+    position:absolute;
+    border-radius:8px;
+    text-align: center;
+    top: 0px;
+    display:none;
+    
+}
+.mobile-createAccount-iii-loading-div{
+    border:none;
+    background-color:  rgba(233, 233, 233, 0.829);
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    margin-top: 30%;
+    border-radius: 10px;
+
+}
+.mobile-createAccount-iii-loading-p{
+    border:none;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 22px;
+    color: rgb(0, 0, 117);
+    width: 110px;
+    height: 40px;
+}
+.mobile-createAccount-iii-loading-rotate{
+    border: 9px solid rgb(0, 0, 82);
+    border-left: none;
+    border-right: none;
+    border-bottom: 9px solid rgb(0, 0, 180);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    animation-name:loadingrotate;
+    animation-timing-function: ease-in-out;
+    animation-duration:0.6s;
+    animation-iteration-count:infinite ;
+}
+@keyframes loadingrotate{
+    100%{transform: rotate(360deg);}
+}
+
+/*iv-mobile-createAccount*/
+.mobile-header-createAccount{
+    border: none;
+    background-color: transparent;
+    width: 400px;
+    height: 100px;
+    margin: auto;
+    margin-top: 10px;
+}
+.mobile-chooseimg-createAccount{
+    border:none;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    max-width: 250px;
+    height: 30px;
+    margin: auto;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: lowercase;
+    color: rgb(1, 1, 126);
+    user-select: none;
+    margin-bottom: 5px;
+}
+.mobile-notice-createAccount{
+    border:none;
+    max-width: 350px;
+    height: 60px;
+    margin: auto;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 13px;
+    text-align: center;
+    user-select: none;
+    font-style: italic;
+    font-weight: 500;
+}
+.mobile-notice-createAccount-span{
+    color: blue;
+    text-transform: capitalize;
+}
+
+.mobile-notice-createAccount-span:hover{
+    color: rgb(250, 61, 27);
+}
+.mobile-notice-createAccount-span:active{
+    color:rgb(126, 0, 0);
+}
+.mobile-background-img-div{
+    border: 1px solid rgb(199, 199, 199);
+    max-width: 300px;
+    height: 130px;
+    margin: auto;
+    position: relative;
+    border-radius: 4px;
+}
+.mobile-background-img-icon{
+    width:100%;
+    height:100%;
+    border-radius: 4px;
+}
+.mobile-background-icon-button{
+    background-color:  rgb(82, 82, 82);
+    border: 1px solid rgb(199, 199, 199);
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    bottom: 4px;
+    right: 4px;
+    z-index: 2;
+    border-radius: 40%;
+    
+    
+}
+.mobile-background-img-camera-icon{
+    width: 20px;;
+    height: 18px;
+    border-radius: 50%;
+    
+}
+.mobile-background-icon-file{
+    background-color: blue;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 3;
+    opacity: 0;
+    z-index: 1;
+    
+}
+.mobile-img-icon-div{
+    border: 1px solid rgb(199, 199, 199);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -30px;
+    left: 8px;
+}
+.mobile-img-icon{
+    width:100%;
+    height:100%;
+    border-radius: 50%;
+}
+.mobile-img-camera-icon-button{
+    background-color:  rgb(82, 82, 82);
+    border: 1px solid rgb(199, 199, 199);
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: -2px;
+    right: 0px;
+    z-index: 2;
+    border-radius: 40%;
+}
+.mobile-img-camera-icon{
+    width:90%;
+    height:90%;
+    position: absolute;
+    bottom: 2px;
+    right: 1px;
+    border-radius: 50%;
+}
+.mobile-img-icon-file{
+    background-color: blue;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 3;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0;
+    z-index: 1;
+}
+/*mobile-createAccount-iv singUp lodding page*/
+.mobile-createAccount-iv-singup-loading-page{
+    border:none;
+    background-color: rgba(0, 0, 0, 0.733);
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    border-radius:8px;
+    text-align: center;
+    top: 0px;
+    display:none;
+    z-index: 2;
+}
+.mobile-createAccount-iv-singup-please-wait-p{
+    border:none;
+    background-color:  rgba(0, 0, 117, 0.484);
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight:normal;
+    font-size: 13px;
+    color:rgb(213, 213, 213);
+    width: 150px;
+    height: 20px;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+.mobile-createAccount-iv-singup-please-wait-p::first-letter{
+    text-transform: uppercase;
+}
+.mobile-createAccount-iv-singup-loading-div{
+    border:none;
+    background-color:  rgba(233, 233, 233, 0.829);
+    width: 210px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    margin-top: 30%;
+    border-radius: 10px;
+
+}
+.mobile-createAccount-iv-singup-loading-p{
+    border:none;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 22px;
+    color: rgb(0, 0, 117);
+    width: 130px;
+    height: 40px;
+}
+.mobile-createAccount-iv-singup-loading-rotate{
+    border: 9px solid rgb(0, 0, 82);
+    border-left: none;
+    border-right: none;
+    border-bottom: 9px solid rgb(0, 0, 180);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    animation-name:loadingrotate;
+    animation-timing-function: ease-in-out;
+    animation-duration:0.6s;
+    animation-iteration-count:infinite ;
+}
+@keyframes loadingrotate{
+    100%{transform: rotate(360deg);}
+}
+
+/*mobile-createAccount-iv lodding page*/
+.mobile-createAccount-iv-loading-page{
+    border:none;
+    background-color: rgba(0, 0, 0, 0.733);
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    border-radius:8px;
+    text-align: center;
+    top: 0px;
+    display:none;
+    z-index: 2;
+    
+}
+.mobile-createAccount-iv-please-wait-p{
+    border:none;
+    background-color:  rgb(0, 0, 117);
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight:normal;
+    font-size: 13px;
+    color:white;
+    width: 150px;
+    height: 20px;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+.mobile-createAccount-iv-please-wait-p::first-letter{
+    text-transform: uppercase;
+}
+.mobile-createAccount-iv-loading-div{
+    border:none;
+    background-color:  rgba(233, 233, 233, 0.829);
+    width: 210px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    margin-top: 30%;
+    border-radius: 10px;
+
+}
+.mobile-createAccount-iv-loading-p{
+    border:none;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 22px;
+    color: rgb(0, 0, 117);
+    width: 130px;
+    height: 40px;
+}
+.mobile-createAccount-iv-loading-rotate{
+    border: 9px solid rgb(0, 0, 82);
+    border-left: none;
+    border-right: none;
+    border-bottom: 9px solid rgb(0, 0, 180);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    animation-name:loadingrotate;
+    animation-timing-function: ease-in-out;
+    animation-duration:0.6s;
+    animation-iteration-count:infinite ;
+}
+@keyframes loadingrotate{
+    100%{transform: rotate(360deg);}
+}
+
+
+
+
+
+
+/*login page mobile&system*/
+.loginContainer-forgettenPasswordContainer-background-div{
+    border: 2px solid rgb(255, 0, 170);
+    background-color: rgb(1, 1, 54);
+    width: 100%;
+    height:100%;
+    position: fixed;
+    z-index: 9;
+    top: 0px;
+    left: 0px;
+    box-shadow: 0px 0px 2px black;
+    display: block;
+}
+.loginContainer-forgettenPasswordContainer-div{
+    border:1px solid red;
+    background-color: rgba(255, 255, 255, 0.972);
+    height: 350px;
+    position: fixed;
+    z-index: 100;
+    top: 80px;
+    bottom: 20px;
+    box-shadow: 0px 0px 2px black;
+    border-radius:8px;
+    overflow: hidden;
+    z-index: 100;
+}
+.login-container{
+    border:none;
+    background-color: rgb(231, 231, 231);
+    width: 100%;
+    height: 350px;
+    position: relative;
+    border-radius:8px;
+    text-align: center;
+    
+}
+
+.login-appName{
+    width: 200px;
+    height: 40px;
+    margin: auto;
+    user-select: none;
+}
+.login-zeeciape-logo{
+    width: 100%;
+    height: 100%;
+}
+.login-notice{
+    border:none;
+    max-width: 350px;
+    height: 60px;
+    margin: auto;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 13px;
+    text-align: center;
+    user-select: none;
+    font-style: italic;
+    font-weight: 500;
+
+}
+.login-notice::first-letter{
+    text-transform: uppercase;
+}
+.login-zeeciape-span{
+    color: blue;
+}
+.login-zeeciape-span:hover{
+    color: rgb(250, 61, 27);
+}
+.login-zeeciape-span:active{
+    color:rgb(126, 0, 0);
+}
+
+.login-emailContact,.login-password{
+    border:none;
+    max-width: 500px;
+    height: 50px;
+    background-color:transparent;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:rgb(42, 42, 42);
+    font-size: 13px;
+    text-transform: capitalize;
+    transition: all 0.05s;
+    position: relative;
+    padding-left: 4px;
+    margin: auto;
+    user-select: none;
+    font-style: italic;
+    font-weight: 500;
+    text-align: start;
+    padding-left:10px ;
+    padding-right: 10px;
+}
+.login-password-seen-button{
+    border:none;
+    outline: none;
+    background-color: rgb(231, 231, 231);
+    width: 19px;
+    height: 15px;
+    position: absolute;
+    bottom: 15px;
+    right: 8px;
+    border-radius: 12px;
+    margin-right: 10px;
+}
+.login-password-seen-button:hover{
+    background-color: rgb(206, 206, 206);
+}
+.login-seen-icon{
+    width:100%;
+    height:100%;
+    
+}
+
+.login-emailContact:hover,.login-password:hover{
+    color: blue;
+}
+
+.login-emailContact-input,.login-password-input{
+    border: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-bottom: 1px solid  rgb(155, 155, 155);
+    background-color: transparent;
+    outline: none;
+    width:100%;
+    height: 25px;
+    font-size: 13px;
+    font-size: 16px;
+    font-weight: normal;
+    padding-left: 10px;
+    transition: all 0.005s;
+    color: rgba(0, 0, 0, 0.801);
+    text-transform: capitalize;
+}
+.login-emailContact-input:focus,.login-password-input:focus{
+    border-bottom: 1px dashed blue;
+}
+.login-emailContact-input:hover,.login-password-input:hover{
+    border-bottom: 1px solid blue;
+}
+.login-loginButton-p{
+    border:none;
+    max-width: 450px;
+    height: 40px;
+    margin: auto;
+}
+.login-loginButton{
+    border:none;
+    background-color: rgb(1, 1, 98);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    color: rgb(218, 218, 218);
+    width:98%;
+    height: 38px;
+    border-radius: 4px;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin-left:1%;
+    margin-right:1%;
+}
+.login-loginButton:hover{
+    background-color: rgb(1, 1, 68);
+}
+.login-forgettenPassword{
+    border:none;
+    border-bottom: 1px solid rgb(199, 199, 199);
+    max-width: 300px;
+    height: 30px;
+    margin: auto;
+    text-align: center;
+    margin-top: 15px;
+    
+}
+.login-forgettenPassword-span{
+    border:none;
+    background-color:transparent;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:rgb(42, 42, 42);
+    font-size: 13px;
+    text-transform: capitalize;
+    transition: all 0.05s;
+    position: relative;
+    padding-left: 4px;
+    user-select: none;
+    font-style: italic;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.05s;
+}
+.login-forgettenPassword-span:hover{
+    color: rgb(146, 0, 0);
+    font-size:14px;
+}
+.login-createAccountButton{
+    border:none;
+    background-color: rgb(69, 138, 1);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    color: rgb(218, 218, 218);
+    width: 200px;
+    height: 35px;
+    border-radius: 6px;
+    text-transform: capitalize;
+    margin-top: 20px;
+}
+.login-createAccountButton:hover{
+    background-color: rgb(76, 151, 1);
+}
+
+
+/*login lodding page*/
+.login-loading-page{
+    border:none;
+    background-color: rgba(0, 0, 0, 0.733);
+    width: 100%;
+    height: 350px;
+    position:absolute;
+    border-radius:8px;
+    text-align: center;
+    top: 0px;
+    display: none;
+    
+}
+.login-loading-div{
+    border:none;
+    background-color:  rgba(233, 233, 233, 0.829);
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    margin-top: 150px;
+    border-radius: 10px;
+
+}
+.loading-p{
+    border:none;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 22px;
+    color: rgb(0, 0, 117);
+    width: 110px;
+    height: 40px;
+}
+.login-loading-rotate{
+    border: 9px solid rgb(0, 0, 82);
+    border-left: none;
+    border-right: none;
+    border-bottom: 9px solid rgb(0, 0, 180);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    animation-name:loadingrotate;
+    animation-timing-function: ease-in-out;
+    animation-duration:0.6s;
+    animation-iteration-count:infinite ;
+}
+@keyframes loadingrotate{
+    100%{transform: rotate(360deg);}
+}
+
+
+
+
+
+/*login forgetten password page*/
+.login-forgettenPassword-container{
+    border:none;
+    background-color: rgba(248, 179, 179, 0.609);
+    background-color: rgb(231, 231, 231);
+    width: 100%;
+    height: 350px;
+    position: relative;
+    border-radius:8px;
+    
+}
+.backTo-loginPage{
+    border: none;
+    background-color: rgb(1, 1, 189);
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    border-radius: 4px;
+}
+.login-arrow-left-icon{
+    width: 20px;
+    height: 20px;
+}
+.forgottenPassword-header{
+    border:none;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    max-width: 250px;
+    height: 30px;
+    margin: auto;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: lowercase;
+    color: rgb(0, 0, 182);
+    user-select: none;
+    margin-bottom: 5px;
+    font-style: italic;
+    padding-top: 10px;
+}
+.forgottenPassword-header::first-letter{
+    text-transform: uppercase;
+}
+
+
+
+.forgottenPassword-country-phoneNumber-div{
+    border:none;
+    max-width: 400px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+    margin-top: 40px;
+    position: relative;
+}
+.forgottenPassword-country,.forgottenPassword-phoneNumber{
+    border:none;
+    max-width: 200px;
+    height: 50px;
+    background-color:transparent;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:rgb(42, 42, 42);
+    font-size: 13px;
+    text-transform: capitalize;
+    transition: all 0.05s;
+    position: relative;
+    padding-left: 4px;
+    margin: auto;
+    user-select: none;
+    font-style: italic;
+    font-weight: 500;
+    padding-left:10px ;
+    padding-right: 10px;
+}
+.forgottenPassword-country-code{
+    border:none ;
+    width: 50px;
+    height: 20px;
+    color: black;
+    text-align: center;
+    position: absolute;
+    bottom: 9px;
+    left: 0px;
+    font-weight: 600;
+    color: rgb(0, 0, 224);
+}
+
+.forgottenPassword-country:hover,.forgottenPassword-phoneNumber:hover{
+    color: rgb(0, 0, 224);
+}
+.forgottenPassword-country-input,.forgottenPassword-phoneNumber-input{
+    border: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.466);
+    background-color: transparent;
+    outline: none;
+    width:100%;
+    height: 25px;
+    font-size: 14px;
+    font-weight: normal;
+    padding-left: 10px;
+    transition: all 0.005s;
+    color: rgba(0, 0, 0, 0.801);
+    text-transform: capitalize;
+}
+.forgottenPassword-phoneNumber-input{
+   padding-left: 40px;
+}
+
+.forgottenPassword-country-input:focus,.forgottenPassword-phoneNumber-input:focus{
+    border-bottom: 1px dashed  rgb(0, 0, 224);
+}
+.forgottenPassword-country-input:hover,.forgottenPassword-phoneNumber-input:hover{
+    border-bottom: 1px dashed  rgb(0, 0, 224);
+}
+
+.forgottenPassword-pick-country-div{
+    background-color: rgb(240, 240, 240);
+    border:none;
+    width: 46%;
+    max-height: 180px;
+    position: absolute;
+    top: 42px;
+    left: 0px;
+    z-index: 2;
+    overflow-y: scroll;
+    box-shadow: 0px 0px 2px black;
+    border-radius: 2px;
+    display: none;
+}
+.forgottenPassword-pick-country-name{
+    background-color: rgb(233, 233, 233);
+    border:none;
+    border-bottom:1px solid rgb(206, 206, 206) ;
+    width: 100%;
+    height: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:rgb(42, 42, 42);
+    font-weight:normal;
+    font-weight:500;
+    font-size: 13px;
+    text-transform: capitalize;
+    transition: all 0.05s;
+    position: relative;
+    user-select: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+.forgottenPassword-pick-country-name:hover{
+    background-color: rgb(200, 200, 200);
+    color: rgb(0, 0, 0);
+}
+.forgottenPassword-pick-country-code{
+    color: blue;
+}
+
+
+
+
+.forgottenPassword-otp-div{
+    border:none;
+    background-color: rgb(219, 219, 219);
+    position: relative;
+    border-radius: 8px;
+    width: 94%;
+    height: 150px;
+    box-shadow: 0px 0px 1px black;
+    margin-top: 10px;
+    margin-left:3%;
+    margin-right:3%;
+    
+}
+.forgottenPassword-otp-blur-true-p{
+    border:none;
+    background-color: rgb(219, 219, 219);
+    width: 94%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 8px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: capitalize;
+    color: rgb(0, 0, 77);
+    font-weight: 600;
+    text-align: center;
+    padding-top: 60px;
+    font-style: italic;
+    margin-left:3%;
+    margin-right:3%;
+    
+}
+
+.forgottenPassword-otp-inpu-div{
+    border:none;
+    border-bottom: 1px solid rgb(0, 0, 179);
+    width: 200px;
+    height: 50px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    transition: all 0.005s;
+    
+} 
+.forgottenPassword-otp-inpu-div:hover{
+    border-bottom: 2px solid rgb(0, 0, 179);
+}
+.forgottenPassword-i-otp{
+    border:none;
+    outline: none;
+    background-color:transparent;
+    border-bottom: 2px solid  rgb(144, 144, 144);
+    width: 25px;
+    height: 25px;
+    color: rgb(0, 0, 95) ;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.forgottenPassword-i-otp:focus{
+    border-bottom: 2px solid rgb(0, 0, 95);
+}
+
+.forgottenPassword-otp-bottom-div{
+    border:none;
+    max-width: 280px;
+    height: 80px;
+    margin: auto;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 13px;
+    text-align: center;
+    user-select: none;
+    margin-top: 10px;
+}
+.forgottenPassword-enter-code{
+    border:none;
+    width: 200px;
+    height: 20px;
+    margin: auto;
+    font-weight: 500;
+}
+.forgottenPassword-enter-code::first-letter{
+    text-transform: uppercase;
+}
+.forgottenPassword-otp-newcode{
+    border:none;
+    width: 200px;
+    height: 22px;
+    margin: auto;
+    font-weight: 600;
+    margin-top: 5px;
+    color: blue;
+    cursor: pointer;
+    transition: all 0.05s;
+}
+.forgottenPassword-otp-newcode:hover{
+    font-weight: 700;
+}
+.forgottenPassword-otp-newcode::first-letter{
+    text-transform: uppercase;
+}
+.forgottenPassword-otp-mayrequese{
+    border: none;
+    max-width: 220px;
+    height: 20px;
+    margin: auto;
+    font-weight: 500;
+    margin-top: 5px;
+}
+.forgottenPassword-otp-mayrequese::first-letter{
+    text-transform: uppercase;
+}
+.forgottenPassword-otp-timecount{
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    font-size: 12px; 
+}
+.forgottenPassword-next-button,.forgottenPassword-submit-button{
+    border:none;
+    background-color: rgb(0, 0, 168);
+    font-size: 18px;
+    color: white;
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    bottom: 12px;
+    right: 12px;
+    border-radius: 8px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: capitalize;
+    z-index: 2;
+}
+.forgottenPassword-submit-button{
+    z-index: 1;
+}
+.forgottenPassword-next-button:hover,.forgottenPassword-submit-button:hover{
+    background-color: rgb(1, 1, 195);
+}
+
+
+/*login verifying page*/
+.login-verifying-page,.login-submit-page{
+    border:none;
+    background-color: rgba(0, 0, 0, 0.733);
+    width: 100%;
+    height: 350px;
+    position:absolute;
+    border-radius:8px;
+    text-align: center;
+    top: 0px;
+    display: none;
+    
+}
+.login-verifying-div,.login-submit-div{
+    border:none;
+    background-color:  rgba(233, 233, 233, 0.829);
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    margin-top: 150px;
+    border-radius: 10px;
+
+}
+.login-verifying-p,.login-submit-p{
+    border:none;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 22px;
+    color: rgb(0, 0, 117);
+    width: 110px;
+    height: 40px;
+}
+.login-verifying-rotate,.login-submit-rotate{
+    border: 9px solid rgb(0, 0, 82);
+    border-left: none;
+    border-right: none;
+    border-bottom: 9px solid rgb(0, 0, 180);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    animation-name:verifyingrotate;
+    animation-timing-function: ease-in-out;
+    animation-duration:0.6s;
+    animation-iteration-count:infinite ;
+}
+
+@keyframes verifyingrotate{
+    100%{transform: rotate(360deg);}
+}
+
+
+
+
+
+
+
+
+/*@media  system&mobile*/
+@media(max-width:630px){
+    .system-createAccount-container{
+        display: none;
+    }
+    .mobile-createAccount-container{
+        width:86%;
+        left: 7%;
+        right: 7%;
+        display: block;
+    }
+    .loginContainer-forgettenPasswordContainer-div{
+        width:86%;
+        left: 7%;
+        right: 7%;
+    }
+}
+@media(min-width:630px ) and (max-width:750px){
+    .mobile-createAccount-container{
+        display: none;
+    }
+    .loginContainer-forgettenPasswordContainer-div{
+        width:70%;
+        left: 15%;
+        right: 15%;
+    }
+}
+@media(min-width:750px ) and (max-width:2000px){
+    .mobile-createAccount-container{
+        display: none;
+    }
+    .loginContainer-forgettenPasswordContainer-div{
+        width:50%;
+        left: 25%;
+        right: 25%;
+    }
+    
+}
